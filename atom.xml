@@ -1,0 +1,31 @@
+---
+layout:
+title: Ikats Atom feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title type="text" xml:lang="en">Ikats news</title>
+  <link type="application/atom+xml" rel="self" href="{{ site.url }}/atom.xml"/>
+  <link type="text/html" href="{{ site.url }}" rel="alternate"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>CS Systèmes d'Information</name>
+    <email>{{ site.email }}</email>
+  </author>
+
+  {% for post in site.posts %}
+    {% if post.project == 'ikats' %}
+  <entry>
+    <id>{{ site.url }}{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <content type="html">{{ post.excerpt | xml_escape }}</content>
+  </entry>
+    {% endif %}
+  {% endfor %}
+
+</feed>

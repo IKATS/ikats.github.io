@@ -1,0 +1,82 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <div class="container">
+
+
+        <a href="{{ "/" | prepend: site.baseurl }}"><img src="/img/Logo-ikats-icon.png" align="left" height="50" vspace="5"></a>
+
+
+        <div class="navbar-header">
+
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-left">
+
+              <li class="dropdown">
+                  <a href="/features.html" class="dropdown-toggle" data-toggle="dropdown">Features <span class="fa fa-chevron-down"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                  <li><a href="/concepts.html">Concepts</a></li>
+                  <li><a href="/overview.html">Overview</a></li>
+                  <li><a href="/features.html">Key features</a></li>
+                  <li><a href="/tutorials.html">Tutorials</a></li>
+                  <li><a href="/howto.html">How to...</a></li>
+                  </ul>
+              </li>
+
+
+            <!--li {% if page.title == 'News' or page.layout == 'post' %} class="active"{% endif %}><a href="news.html">News</a>
+            </li-->
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developers <span class="fa fa-chevron-down"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+
+                        <li class="nav-header disabled"><a>Development Documentation</a></li>
+                        <li><a href="/documentation.html">Learn about IKATS</a></li>
+                        <li><a href="/architecture.html">Architecture</a></li>
+                        <li><a href="{{ site.links.wiki }}">Wiki</a></li>
+                        <li><a href="/postgresql.html">Database queries</a></li>
+                        <li><a href="/useful-links.html">Useful Links</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header disabled"><a>IKATS development</a></li>
+                        <li><a href="{{ site.links.organisation }}">Repositories</a></li>
+                        <!-- pointera vers README de description de tous les repos -->
+                        <!--li><a href="{{ site.links.ci }}">Continuous integration</a></li-->
+                        <li><a href="{{ site.links.sources }}">Browse source</a></li>
+                        <li><a href="{{ site.links.sandbox }}">Download</a></li>
+                        <li><a href="/roadmap.html">Roadmap</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <span class="fa fa-chevron-down"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/community.html">General information</a></li>
+                        <li><a href="/contribute.html">How to Contribute</a></li>
+                        <li><a href="https://github.com/IKATS">Github</a></li>
+                    </ul>
+                </li>
+
+
+                <!--li {% if page.title == 'Community' %} class="active"{% endif %}><a href="/community.html">Community</a></li-->
+                <li {% if page.title == 'Support' %} class="active"{% endif %}><a href="/support.html">Support</a></li>
+                <li {% if page.title == 'News' %} class="active"{% endif %}><a href="/news.html">News</a></li>
+                <!-- TODO relier au flux RSS -->
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>

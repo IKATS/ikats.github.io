@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'Open Sans Condensed Bold';
+    src: url('../fonts/OpenSans-CondBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed Light';
+    src: url('../fonts/OpenSans-CondLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-top: 70px;
+    font-family: 'Open Sans Regular';
+    font-size: 14px;
+}
+
+blockquote {
+    font-family: 'Open Sans Italic';
+    font-size: 14px;
+}
+
+.caption {
+    margin-top: 6px;
+    padding-top: 3px;
+    font-family: 'Open Sans Italic';
+    font-size: 12px;
+    border-top: 1px solid #e5e5e5;
+}
+
+h1,
+.h1 {
+    font-family: 'Open Sans Condensed Bold';
+}
+
+h2,
+.h2 {
+    font-family: 'Open Sans Condensed Light';
+}
+
+h3,
+.h3 {
+    font-family: 'Open Sans Condensed Light';
+}
+
+.jumbotron {
+    color: #ffffff;
+    margin-top: -20px;
+    padding: 15px;
+}
+
+.stars {
+    background: #ffffff url("../img/bandeau-timeserie.jpg") top left;
+}
+
+footer {
+    margin: 15px 0 0 0;
+    padding: 15px;
+    color: #7f7f7f;
+    background: #e7e7e7;
+    border-top: 1px solid #e5e5e5;
+}
+
+footer p.sponsor {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: square;
+}
+
+#footerCopyright p {
+    margin: 0;
+    text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+.fa-gears:before {
+  content: "\f085";
+}
+
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+.fa-heart:before {
+  content: "\f004";
+}
+
+.fa-eye:before {
+  content: "\f06e";
+}
+
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+.fa-star:before {
+  content: "\f005";
+}
+
+.fa-star-o:before {
+  content: "\f006";
+}
+
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+.fa-font:before {
+  content: "\f031";
+}
+
+.fa-picture-o:before {
+  content: "\f03e";
+}
+
+.fa-institution:before {
+  content: "\f19c";
+}
+
+.fa-microphone:before {
+  content: "\f130";
+}
+
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+.fa-rocket:before {
+  content: "\f135";
+}
+
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+.fa-warning:before {
+  content: "\f071";
+}
+
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+.fa-camera:before {
+  content: "\f030";
+}
+
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+.bs-callout {
+    padding:10px 20px;
+    margin:20px 0;
+    border:1px solid #eee;
+    border-left-width:5px;
+    border-radius:3px;
+}
+
+.bs-callout-warning {
+    border-left-color:#f0ad4e;
+}
+
+.bs-callout-warning h4 {
+    color:#f0ad4e;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,20 @@
+---
+title: News
+date: 2017-09-29 10:00:00 +02:00
+layout: default
+---
+
+<a role="button" class="btn btn-warning btn-sm" href="/atom.xml" title="Subscribe to our Atom feed">
+  <span class="fa fa-lg fa-rss-square"></span>&nbsp;&nbsp;Subscribe to our Atom feed
+</a>
+
+{% for post in site.posts %}
+
+  {% if post.project == 'orekit' %}
+
+<p class="h3">{{ post.date | date: "%Y-%m-%d" }} <span class="fa fa-chevron-right"></span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+
+<p>{{ post.excerpt }}</p>
+  {% endif %}
+
+{% endfor %}

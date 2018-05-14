@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+
+      <h3>{{ page.date | date: "%Y-%m-%d" }} <span class="fa fa-chevron-right"></span> {{ page.title }}</h3>
+
+      {{ content }}
+
+      <a class="btn btn-primary btn-xs" href="/news.html" role="button">News summary</a>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

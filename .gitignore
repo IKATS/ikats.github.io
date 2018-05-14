@@ -1,0 +1,5 @@
+# generated site
+_site/
+.idea/
+Gemfile.lock
+vendor/
