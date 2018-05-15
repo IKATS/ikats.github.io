@@ -14,7 +14,7 @@ Cutting involves selecting a smaller section of a timeseries or dataset. Possibl
 - selecting an interesting pattern from a time series to search for in other time series
 
 
-Their are four ways to cut a TS in Ikats:
+Their are four ways to cut a TS in IKATS:
 
 ## [Cut DS](doc_operator_cut.md)
 Cut all time series in a dataset either between certain dates or by limiting to a maximum number of points

@@ -13,7 +13,7 @@ Development Documentation
 The whole IKATS documentation is available from the source code and can be
 generated using the javadoc, jsdoc and sphinx (for python part).
 
-For a quick access, the following links point to the Ikats public forge.
+For a quick access, the following links point to the IKATS public forge.
 
 API
 ===

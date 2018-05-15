@@ -54,7 +54,7 @@ node('docker') {
   }
   stage ("notify") {
     echo "Open Browser at URL : http://172.28.18.22:${CONTAINER_PORT}"
-    emailext body: "Ikats Website deployed at URL : http://172.28.18.22:${CONTAINER_PORT}",
+    emailext body: "IKATS Website deployed at URL : http://172.28.18.22:${CONTAINER_PORT}",
     recipientProviders: [[$class: 'RequesterRecipientProvider'], [$class: 'DevelopersRecipientProvider']],
     subject: '[IKATS] Website successfully deployed'
   }

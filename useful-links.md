@@ -6,7 +6,7 @@ layout: default
 published: true
 ---
 
-Ikats uses some of the technologies and libraries below:
+IKATS uses some of the technologies and libraries below:
 
 * Stack
   - [Horton Works](https://hortonworks.com/products/data-center/hdp/)
