@@ -12,6 +12,8 @@ In this tutorial, we use a subset of a dataset proposed on [Kaggle](https://www.
 The subset include 11989 TS from 7 languages (Deutsch, English, French, Spanish, Chinese, Russian, Japanese).
 
 
+Warning : this tutorial helps understanding the role of this operator but if you want to play it , it requires on a PC with 16 G° RAM; if you have only 8G°, you can reach the limits and get a stack overflow. in this case, the operator will turn red with no result. You can try to use this operator with the sandbox on a smaller dataset.
+
 
 [Random Projection](/doc/operators/randomProjections.html) is a technique used to reduce the dimensionality of a set of points.
 
