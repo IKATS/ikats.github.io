@@ -8,7 +8,8 @@ published: true
 
 Welcome !!
 -------------------------
-You have probably completed the installation of IKATS and launched the application ( see [installation tutorial](/doc/tutoInstall.html) otherwise). Now let's connect to the interface (just type `localhost` in a browser). You should access this screen.
+You have probably completed the installation of IKATS and launched the application ( see
+  <a href="https://github.com/IKATS/ikats-sandbox">installation tutorial</a> otherwise). Now let's connect to the interface (just type `localhost` in a browser). You should access this screen.
 
 ![Texte alternatif](/img/tuto00/DatasetSelection.png "Default screen interface")
 

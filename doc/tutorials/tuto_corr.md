@@ -17,7 +17,7 @@ For the purposes of this tutorial, these features have been grouped into 5 class
    
 We are interested in this tutorial to look for the correlation between these features, on the whole dataset or for a given city.
 
-The [Correlate ts loop](/doc/tutorials/correlation_ts_loop.html) operator can be connected directly to the output of a Dataset Selection. In this usecase, we are interested in the correlation of our weather indicators for each city, the *Group by* parameter must be filled in with the metadata *city*.
+The [Correlate ts loop](/doc/operators/correlateTsLoop.html) operator can be connected directly to the output of a Dataset Selection. In this usecase, we are interested in the correlation of our weather indicators for each city, the *Group by* parameter must be filled in with the metadata *city*.
 
 We obtain a correlation matrix averaged over the entire dataset.
 
