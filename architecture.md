@@ -5,7 +5,7 @@ layout: default
 published: true
 ---
 
-
+![IKATS Logo](https://ikats.github.io/img/Logo-ikats-icon.png)
 Overview
 =========
 
@@ -17,10 +17,12 @@ General Architecture
 
 Hereunder is the global organisation of IKATS and its environment.
 
+![IKATS software layer](img/IKATS-software-layer.png)
+
 
 Big data infrastructure
 -------
-IKATs must be installed on a standalone PC but it is more efficient on a Hadoop infrastructure
+IKATs can be installed on a standalone PC but it is more efficient on a Hadoop infrastructure
 
 
 Database management
