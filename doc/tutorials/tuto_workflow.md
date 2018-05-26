@@ -37,7 +37,7 @@ Clic on it, choose `Portfolio` in the drop-down menu, and `run`.
 An operator has a state:
 - green: action done successfully, you can click on the operator to view the result of the action
 - orange: in progress (most operations are parallelized, but if IKATS deals with large datasets, some actions may take some time)
-- red: the action failed. The causes can be multiple. Start by looking at the [operator's doc](/operators.html) to see if you are using it well and what are the boundary cases. It can also be a problem of connection between the components (see [Troubleshooting](/troubleshooting.html) page for more details)
+- red: the action failed. The causes can be multiple. Start by looking at the [operator's doc](/operators.html) to see if you are using it well and what are the boundary cases. It can also be a problem of connection between the components (see [Troubleshooting](https://github.com/IKATS/ikats-sandbox/blob/master/TROUBLESHOOTING.md) page for more details)
 
 The Portfolio Dataset (which contains 13 Timeseries) has been loaded.
 
