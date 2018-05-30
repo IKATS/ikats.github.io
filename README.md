@@ -1,4 +1,4 @@
-This repository contains the ikats website.
+This repository contains the IKATS website.
 The website is written in HTML and markdown.
 The rendering is made using Jekyll which is embedded in Github by default.
 

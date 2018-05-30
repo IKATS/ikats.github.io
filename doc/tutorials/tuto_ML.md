@@ -27,17 +27,26 @@ The target looks like :
 with 30 cities in North America and 6 in MLiddle East.
 
 
-Target is loaded by [Population Selection](/doc/operators/populationSelection.png) operator, then tables are [merged](/doc/operators/mergeTables.png).
+Target is loaded by [Population Selection](/doc/operators/populationSelection.html) operator, then tables are [merged](/doc/operators/mergeTables.html).
 
 
 We use [TrainTestSplit](/doc/operators/trainTestSplit.html) operator to genarte Train and Test tables (here 0.6 repartition rate was choosen because of the low number of entries.
 
 [Decision Tree fit](/doc/operators/decisionTreeFit.html) operator has to outputs. One is .dot file, that allow to plot the decsion tree, for example with the tool [WebGraphviz](http://www.webgraphviz.com/).
+
+
+
+
  ![Texte alternatif](/img/tuto4/webgraphviz.png)
 
-Then, the model is used to predict test set.  
+
+Then, the model is used to predict test set.
 
  ![Texte alternatif](/img/tuto4/predict.png "Decision Tree Predict")
+
+
+
+
 [Decision Tree predict](/doc/operators/decisionTreePredict.html) operator offers two outputs, `score` and `confusion matrix`.
 
  ![Texte alternatif](/img/tuto4/score.png "Prediction score")

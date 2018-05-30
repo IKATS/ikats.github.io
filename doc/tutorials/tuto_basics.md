@@ -28,15 +28,15 @@ Drag and drop the Dataset Selection operator from the toolbox to the workflow pa
 A dataset is composed of several timeseries (TS).
 In addition to the data, each one also contains a series of metadata, such as the number of points, the date ... Some metadata are calculated when the dataset is created (see [Dataset import](/doc/operators/importTs.html)), but most (those whose names begin with **qual _**) are calculated via the [Quality indicators](/doc/operators/qualityIndicators.html) operator.
 
-![Texte alternatif](/img/tuto0/mdedit.png "MDEDIT"){: .center-image, width="600px" }
+![Texte alternatif](/img/tuto0/mdedit.png "MDEDIT"){: . width="600px"  class="center"}
 
 Warning
 =======
-Through this interface, you can also updtae, delete, or add a new metadata (TS by TS). Be careful, changes are under your responsability : some calauclated metadata are required for further computations or visualisations.
+Through this interface, you can also update, delete, or add a new metadata (TS by TS). Be careful, changes are under your responsability : some calculated metadata are required for further computations or visualisations.
 
 ## TS Filter
 
- Drag and drop the Filter operator from the toolbox to the workflow panel (1) and connect by click and move the output of the previous component to its entry (2), use the parameters panel to choose among the previous component metadata those you want to filter  (3) and then press “Run” to load the result into the Filter Component (4) which turns green :
+ Drag and drop the Filter operator from the toolbox to the workflow panel (1) and connect by click and move the output of the previous component to its entry (2), use the parameters panel to choose among the previous component metadata those you want to filter (3) and then press “Run” to load the result into the Filter Component (4) which turns green :
 
 Here we have filtered 97 TS from the 11989 of the entire dataset.
 

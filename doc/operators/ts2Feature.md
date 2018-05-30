@@ -16,7 +16,7 @@ This operator only takes one input of the functional type `ds_name`.
 It also takes upto 3 inputs from the user :
 
 - **Number of buckets** : How many buckets to divide the timeseries into.
-- **Table namen** : The name given to the table ___________
+- **Table name** : The name given to the table ___________
 - **Operators** : Select upto 4 operators to be applied to each bucket. Each bucket-operator combination will have a column in the output table with the suffix operator_bucketNo. The four operators are:
         - MIN: the minimum value in each bucket
         - MAX: the maximum value in each bucket

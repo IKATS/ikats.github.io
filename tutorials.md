@@ -19,7 +19,7 @@ IKATS is innovative in a way that you don't spend your time struggleling with th
 
 Theses are extremelly powerful features when you want to mine your data step by step.
 
-The following series of tutorials will guide you through the discovery of Ikats, from the simplest features, such as data mining, to the use of more characteristic operators in complex workflows.
+The following series of tutorials will guide you through the discovery of IKATS, from the simplest features, such as data mining, to the use of more characteristic operators in complex workflows.
 
 [Tutorial 0 : Check Installation](/doc/tutorials/tuto_workflow.html)
 

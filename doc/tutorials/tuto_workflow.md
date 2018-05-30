@@ -8,7 +8,8 @@ published: true
 
 Welcome !!
 -------------------------
-You have probably completed the installation of IKATS and launched the application ( see [installation tutorial](/doc/tutoInstall.html) otherwise). Now let's connect to the interface (just type `localhost` in a browser). You should access this screen.  
+You have probably completed the installation of IKATS and launched the application ( see
+  <a href="https://github.com/IKATS/ikats-sandbox">installation tutorial</a> otherwise). Now let's connect to the interface (just type `localhost` in a browser). You should access this screen.
 
 ![Texte alternatif](/img/tuto00/DatasetSelection.png "Default screen interface")
 
@@ -36,7 +37,7 @@ Clic on it, choose `Portfolio` in the drop-down menu, and `run`.
 An operator has a state:
 - green: action done successfully, you can click on the operator to view the result of the action
 - orange: in progress (most operations are parallelized, but if IKATS deals with large datasets, some actions may take some time)
-- red: the action failed. The causes can be multiple. Start by looking at the [operator's doc](/operators.html) to see if you are using it well and what are the boundary cases. It can also be a problem of connection between the components, (**TODO: Add Portainer.io installation procedure in installation doc to be able to evoke it here, and envisage also a doc about debug**).
+- red: the action failed. The causes can be multiple. Start by looking at the [operator's doc](/operators.html) to see if you are using it well and what are the boundary cases. It can also be a problem of connection between the components (see [Troubleshooting](https://github.com/IKATS/ikats-sandbox/blob/master/TROUBLESHOOTING.md) page for more details)
 
 The Portfolio Dataset (which contains 13 Timeseries) has been loaded.
 
@@ -67,4 +68,4 @@ Now the Dataset appears in the Datasets list (`Data Mgt/Datasets` menu).
 
 ![Texte alternatif](/img/tuto00/deleteDataset.png "Menu delete a dataset")
 
-Two delete actions are available from this menu. The blue bin removes the link between the TS and the Dataset (*the container object*), the Dataset is deleted but not the associated TS. The red bin removes Dataset and TS, provided that TS are not still linked to another Dataset.  
+Two delete actions are available from this menu. The blue bin removes the link between the TS and the Dataset (*the container object*), the Dataset is deleted but not the associated TS. The red bin removes Dataset and TS, provided that TS are not still linked to another Dataset.

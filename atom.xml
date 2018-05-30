@@ -1,6 +1,6 @@
 ---
 layout:
-title: Ikats Atom feed
+title: IKATS Atom feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -16,7 +16,7 @@ title: Ikats Atom feed
   </author>
 
   {% for post in site.posts %}
-    {% if post.project == 'ikats' %}
+    {% if post.project == 'IKATS' %}
   <entry>
     <id>{{ site.url }}{{ post.id }}</id>
     <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>

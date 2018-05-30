@@ -10,7 +10,7 @@ This IKATS operator allows to import a set of timeseries located in the `/var/li
 
 ## Operator Description:
 
-From the Root Path, the operator will scan for CSV files in sub directories and will import the points of each to Ikats.
+From the Root Path, the operator will scan for CSV files in sub directories and will import the points of each to IKATS.
 In a same time, depending on the path structure, it will extract some metadata and will associate them to the timeseries being created.
 
 ### CSV file format
