@@ -7,7 +7,7 @@ published: true
 ---
 
 
-In complement to information given in the Features menu, this Developers menu can help developers with main pages where more information is avalable.
+In complement to information given in the Features menu, this Developers menu can help developers with main pages where more information is available.
 
 Architecture
 ================
