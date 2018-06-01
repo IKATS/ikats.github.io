@@ -21,7 +21,7 @@ Repository  Documentation
 For a quick access, have a look in the README.md of each repository in to the  <a href="{{ site.links.organisation }}">IKATS
 repositories</a>.
 
-In paricular you will find some explanations on the TemporalDataManager web application to IKATS whicch is available in [Data Model  README.md](https://github.com/IKATS/ikats-datamodel/blob/master/README.md)..
+In particular you will find some explanations on the TemporalDataManager web application to IKATS whicch is available in [Data Model  README.md](https://github.com/IKATS/ikats-datamodel/blob/master/README.md)..
 
 
 In the same way, you will find information about how to ingest data in an autoamtic qay in the [Ingestion README.md](https://github.com/IKATS/ikats-ingestion/blob/master/README.md).
