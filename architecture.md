@@ -5,9 +5,8 @@ layout: default
 published: true
 ---
 
-![IKATS Logo](https://ikats.github.io/img/Logo-ikats-icon.png)
-Overview
-=========
+![IKATS Logo](https://ikats.github.io/img/Logo-ikats-icon.png) Overview
+=============
 
 This page introduces an overview of the IKATS architecture
 
