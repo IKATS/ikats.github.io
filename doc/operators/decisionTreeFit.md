@@ -20,7 +20,8 @@ It also takes 4 inputs from the user :
 - **Max Depth** : the maximum depth of the tree. The default value of zero means there is no constraint on the depth of the tree.
 - **Class Balancing** : Apply weightbalancing on the items inversely proportional to class frequencies in the input data
 
-___ add image of formula
+**Class Balancing** is optional, default False: when True: apply a weight balancing on the classes,inversely proportional to class frequencies in the input data, according to the following formula:
+
 weight(label)  = total_samples / (nb_classes*count_samples(label))
 
 ## Outputs

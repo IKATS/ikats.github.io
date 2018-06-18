@@ -4,7 +4,7 @@ date: 2018-01-15 15:00:00 +02:00
 layout: default
 published: true
 ---
-# Decision Tree Fit CV
+#  Decision Tree Fit CV
 
 This IKATS operator implements the cross-validation procedure to find the best combination of parameters, giving a more
  accurate model, here the model is a decision tree.
@@ -26,8 +26,9 @@ as the score of the particular parameters combination that we used
 Once we have tested all the combination we wanted to, we can pick the one with the highest score and name it our
 best model. Because we have iterated over several tests sets, we should be safe from overfitting on the training set.
 
-![cv](https://static.oschina.net/uploads/img/201609/26155106_OfXx.png)
-Overview of the cross validation procedure
+![cv](https://static.oschina.net/uploads/img/201609/26155106_OfXx.png){: .center-image" width="600px" }
+
+  Figure 1  Overview of the cross validation procedure
 
 
 # The Decision Tree Fit CV operator
