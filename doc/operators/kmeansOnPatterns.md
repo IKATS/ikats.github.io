@@ -4,7 +4,7 @@ date: 2018-01-15 15:00:00 +02:00
 layout: default
 published: true
 ---
-# kmeansOnPatterns
+# K-means on Patterns
 
 This IKATS operator implements K-Means algorithm, like the kmeans operator, but with a different input ! patterns instead of SAX words. The principle is the same, i.e., clusters data by trying to separate samples in n groups of equal variance, minimizing a criterion known as the inertia or within-cluster sum-of-squares.
 
