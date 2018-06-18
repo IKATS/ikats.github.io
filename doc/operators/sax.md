@@ -28,7 +28,7 @@ The operator has one output :
 
 ## Example
 
-TODO : Description Portfolio
+Portfolio is a list of timeseries found on the net in the Financial domain, with no specific interest oher than its simplicity.
 - alphabet size : 6
 - Nb of PAA segments : 20
 
