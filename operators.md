@@ -47,13 +47,13 @@ Operators list..
 - [Unwrap](/doc/operators/unwrap.html)
 
 ## Stats
-> ### Statiststics on Ts
+> ### Statistics on Ts
 - [Quality indicators](/doc/operators/qualityIndicators.html)
 
-> ### Ts Correaltion Computation
+> ### Ts Correlation Computation
 - [Correlate ts loop](/doc/operators/correlateTsLoop.html)
 
-## Processing On Tables
+## Processing on Tables
 - [Read Table](/doc/operators/readTable.html)
 <!-- [Add TS Column](/doc/operators/addTsColumn.html)-->
 - [TrainTestSplit](/doc/operators/trainTestSplit.html)
