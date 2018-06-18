@@ -46,12 +46,12 @@ Operator outputs offer specific visualizations.
 
 Data Mining
 ----------------
-Operators currently managed by IKATS toolkit (spark), so calculs are parallelized using spark library.
+Operators currently managed by IKATS toolkit (spark), so computations are parallelized using spark library.
 
 
 Data Management
 ---------------
-With IKATS, you can load timeseries data in different DataSet associated with meta Data.
+With IKATS, you can load timeseries data in different **DataSets** associated with meta Data.
 * Timeseries dedicated
 * Import/export data values
 * Automatically storing all intermediaries workflow values.
