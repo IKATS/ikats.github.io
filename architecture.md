@@ -8,7 +8,7 @@ published: true
 ![IKATS Logo](https://ikats.github.io/img/Logo-ikats-icon.png) Overview
 =============
 
-This page introduces an overview of the IKATS architecture
+This page introduces an overview of the IKATS's architecture
 
 
 General Architecture
@@ -29,11 +29,11 @@ Hereunder is the global layer of IKATS.
 Big data infrastructure
 -------
 
-IKATS is designed in a **microservices architecture**, which means that it is composed of many different and independent services, communicating through HTTP.  
+IKATS is designed in a **microservices architecture**, which means that it is composed of many different and independent services, communicating through HTTP.
 This approach improves modularity and makes the application easier to understand, develop, test, and more resilient.
 Orchestrated by [kubernetes](https://kubernetes.io/), the application is more fault-tolerant, as this one can restart any container when its failure is detected. Service interruption is then minimized.
 
-IKATS can be installed on a standalone PC ([IKATS Sandbox](https://github.com/IKATS/ikats-sandbox)) but with limitations.  
+IKATS can be installed on a standalone PC ([IKATS Sandbox](https://github.com/IKATS/ikats-sandbox)) but with limitations.
 It is strongly recommended to install IKATS on a customized cluster, with as many worker nodes as needed.
 
 
