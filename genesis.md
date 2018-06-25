@@ -27,9 +27,9 @@ The AMA team (dAta analysis, Modeling and mAchine learning) was created in LIG i
 
 Two important industrial groups participated as end-users, by taking part in use cases definition in predictive maintenance domain, providing data sets (time series) for IKATS testing and validation) and attending strategic Committees :
 
-![AIRBUS R&D](/img/logo_AIB_RetD.png ){: .center-image" width="120px" }
+![AIRBUS R&D](/img/Logo_AIB_RetD.png ){: .center-image" width="120px" }
 and
-![EDF R&D](/img/logo_EDF_RetD.png ){: .center-image" width="80px" }
+![EDF R&D](/img/Logo_EDF_RetD.png ){: .center-image" width="80px" }
 
 The project was sponsored by the regional clusters ![Aerospace Valley](/img/logo_aese.png ){: .center-image, width="100px" }  and ![Minalogic](/img/logo_minalogic.jpg ){: .center-image" }
 
