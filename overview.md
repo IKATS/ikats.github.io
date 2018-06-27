@@ -10,14 +10,14 @@ published: true
 IKATS Interface
 ===============
 
-IKATS provides an easy to use way to manipulate operators in order to explore and analyze time series.
+IKATS provides an easy-to-use means of manipulating operators in order to explore and analyze time series.
 
-Herunder the main principles you just need to understand before you use IKATS.
+Here below are the main principles you need to understand before using IKATS.
 
 ![Texte alternatif](/img/ikats_interface.png "IKATS interface"){:width="600px"}
 
-Through the workflow editor, you can create new workflows, then through the main menu you will be able to save save it, or to open and change an existing one.
+Via the workflow editor, you can create new workflows, and using the main menu you will then be able to save them, or to open and change an existing one.
 
-When doing this, you will be able to consult few days ou weeks later,   first of all the process of the analysis, and secondly to consult all the 'intermediairy resuts', that is to say all the results created and consulted which contributed to this analysis.
+By doing this, a few days ou weeks later, you will be able to consult, first of all the process of analysis, and secondly all the 'intermediary resuts', that is to say all the results created which contributed to this analysis.
 
-All along the studies, you will be able to create new datasets and tables  that you can manage through the main menu.
+Throughout the studies, you will be able to create new datasets and tables  that you can manage via the main menu.
