@@ -12,7 +12,7 @@ IKATS Key Features List
 The workbench and interface
 ---------------------------
 
-IKATS is a Visual environment to help Data scientists design workflow accelerating Big Data exploration.
+IKATS is a Visual environment to help Data scientists design a workflow accelerating Big Data exploration.
 
 * Easy2Use Web based graphical environment
 * No programming required
@@ -21,14 +21,11 @@ IKATS is a Visual environment to help Data scientists design workflow accelerati
     * Easy to use: design faster
     * Easy to re-use: Workflows can become an operator
 * Intelligent and intuitive Visualisation
-    * Data Visualisation is part of the operator
-    * One can select interesting data from plots, graphs and/or tables and mine them.
-    * Big-Data Visualisation tool, like hierarchical tree (from the LIG)
 * Extensible
-    * Through open APIs (Notebook/Jupyter) to support scripting
+    * Via open APIs (Notebook/Jupyter) to support scripting
     * Add-ons: add your own operators
 * Intelligent scoring
-    * Machine learning operator provides automatically scoring
+    * Machine learning operator provides automatic scoring
 
 
 
@@ -40,9 +37,12 @@ A choice of operators dedicated to the import and selection of data, in the form
 Data Visualization
 -------------------
 Operator outputs offer specific visualizations.
-* One can select interesting data from plots, graphs and/or tables and mine them.
-* Big data Visualisation tool allows to explore TS with huge amounts of points, by zoom and dag capabilities.
+* Navigation between different visualisations,
+* Interesting data can be selected from plots, graphs and/or tables and be mined.
+* Exploring TS with huge amounts of points, by using zoom and dag capabilities.
+* Big data specific Visualisation tools, such as heatmaps
 
+Explore the list of operators via [Operators list](/operators.html).
 
 Data Mining
 ----------------
@@ -51,18 +51,7 @@ Operators currently managed by IKATS toolkit (spark), so computations are parall
 
 Data Management
 ---------------
-With IKATS, you can load timeseries data in different **DataSets** associated with meta Data.
+With IKATS, you can load timeseries data in different **DataSets** associated with metadata.
 * Timeseries dedicated
 * Import/export data values
-* Automatically storing all intermediaries workflow values.
-
-Processing
-----------
-Unlike other predictive analytics tools, IKATS is a Web Based application to provide you with the State of the Art Big Data capabilities performances.
-* `All processing are Server Based in cluster environment` -> Architecture based on microservices,
-Local full installation
-* Execution multiple processes in parallel
-* Distributed algorithms (Spark)
-
-
-Explore the list of operators via [Operators list](/operators.html).
+* Automatically stores all intermediary workflow results.

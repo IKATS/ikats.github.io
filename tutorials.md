@@ -13,11 +13,11 @@ Welcome !
 ---------
 
 
-Through the choice of the right operator and their connections, it is easy to build complex workflows for a broad variety of data analysis tasks. At any time, you can access the Data output associated with the operator and its associated Visualization.
+By choosing of the right operator and their connections, it is easy to build complex workflows for a broad variety of data analysis tasks. You can access the Data output associated with the operator and its associated Visualization at any time.
 
-IKATS is innovative in a way that you don't spend your time struggleling with the choice of Data visualization. IKATS includes `Interactive visualizations` to enable exploratory data analysis, so you can stay focus on your analysis.
+IKATS is innovative in  that you don't have to spend your time struggling with the choice of Data visualization. IKATS includes `Interactive visualizations` to enable exploratory data analysis, so you can stay focused on your analysis.
 
-Theses are extremelly powerful features when you want to mine your data step by step.
+These are extremelly powerful features when you want to mine your data step by step.
 
 The following series of tutorials will guide you through the discovery of IKATS, from the simplest features, such as data mining, to the use of more characteristic operators in complex workflows.
 
