@@ -5,31 +5,30 @@ layout: default
 published: true
 ---
 
-![IKATS Logo](https://ikats.github.io/img/Logo-ikats-icon.png) Overview
+![IKATS Logo](https://ikats.github.io/img/Logo-ikats-icon.png) Overview of IKATS Architecture
 =============
 
 This page introduces an overview of the IKATS's architecture
 
 
-General Architecture
---------
 
-Hereunder is the global layer of IKATS.
+Here below is the global layer of IKATS.
 
 ![IKATS software layer](img/Ikats_overview.png)
+
 
 * IKATS HMI is the graphical user interface, in javascript, that provides a web-based access to IKATS features.
 * IKATS CORE manages access to the python algorithms catalog and provides an engine to run them from HMI
 * IKATS Algo is the library of IKATS algorithms developed in python (with its own connector to time series database for more efficiency)
 * IKATS Base provides an access to IKATS resources stored either in PostgreSQL database (for non temporal data) or in Open TSDB database (for temporal data) through an HTTP API
-* SPARK allows to distribute computing over cluster nodes
+* SPARK allows  computing to be distributed over cluster nodes
 * Hadoop/HDFS/HBASE provides a distributed filesystem over a cluster with data replication
 
 
 Big data infrastructure
 -------
 
-IKATS is designed in a **microservices architecture**, which means that it is composed of many different and independent services, communicating through HTTP.
+IKATS is designed in a **microservices architecture**, which means that it is composed of many different and independent services, communicating via HTTP.
 This approach improves modularity and makes the application easier to understand, develop, test, and more resilient.
 Orchestrated by [kubernetes](https://kubernetes.io/), the application is more fault-tolerant, as this one can restart any container when its failure is detected. Service interruption is then minimized.
 
