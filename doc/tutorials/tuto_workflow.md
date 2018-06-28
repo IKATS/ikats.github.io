@@ -27,13 +27,13 @@ Herunder the main principles you just need to understand before you use IKATS.
 
 ### Operators menu
 
-In IKATS, all the functions (data import, selection, transformation, training of an algorithm, ...) are packaged in an operator. An operator includes entries (a Dataset, a list of Timeseries, a table ...), usually parameters, and often one or more output(s) (transformed objects that will be used by the following operators in the workflow). A visualization tool is also integrated with each operator.
+In IKATS, all the functions (data import, selection, transformation, training of an algorithm, ...) are packaged in an operator. An operator includes entries (a Dataset, a list of Timeseries, a table ...), usually parameters, and often one or more output(s) (transformed objects that will be used by the following operators in the workflow). A visualization tool is also integrated with each operator ( `double click` on the operator and then click on the eye in the menu that appears to open the visualisation tool).
 
 By default, a [Dataset Selection](/doc/operators/DatasetSelection.html) operator is already integrated into the Workflow.
 
 ### Workflow
 
-Clic on it, choose `Portfolio` in the drop-down menu, and `run`.
+Click on it, choose `Portfolio` in the drop-down menu, and `run`.
 An operator has a state:
 - green: action done successfully, you can click on the operator to view the result of the action
 - orange: in progress (most operations are parallelized, but if IKATS deals with large datasets, some actions may take some time)
@@ -58,7 +58,7 @@ It now appears in the list of workflows that can be loaded.
 
 ### Datasets Management
 
-With the use of the [Slope](/doc/operators/slope.html) operator, we generated new TS (click on the operator and then on the eye in the menu that appears)
+With the use of the [Slope](/doc/operators/slope.html) operator, we generated new TS (double click on the operator and then on the eye in the menu that appears)
 
 ![Texte alternatif](/img/tuto00/newTSSlope.png "TS created by slope")
 
