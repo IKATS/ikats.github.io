@@ -16,16 +16,16 @@ We use a subset of data from [Kaggle](https://www.kaggle.com/selfishgene/histori
 The dataset, called Hourly_weather_36cities_1, has already be loaded in a previous step.
 It's now directly usable thanks to [Data Selection](/doc/operators/datasetSelection.html) operator. The dataset contains 216 time series (6 indicators per 36 cities).
 
-Let's have a look on some sample, for example the temperature of cities whose name begins by M : ![Texte alternatif](/img/tuto2/temp_cities_M.png)
+Let's have a look on some sample, for example the temperature of cities whose name begins by M : ![Texte alternatif](/img/tuto2/temp_cities_M.png){: class="center"}
 
 We see that the Miami time series contains some erroneous values at 0.
- ![Texte alternatif](/img/tuto2/metadata_temp_Miami.png)
+ ![Texte alternatif](/img/tuto2/metadata_temp_Miami.png){: class="center"}
 
 
  We will clean this time series, removing these points, thanks to the tool [cut-Y](/doc/operators/cutY.html). This tool generates two time series, one for the points validating the cut condition and one for those that do not validate it (suffix "\_compl").
  It is mandatory that each time series is plottable (more than one point). The other cities of our selection (Minneapolis and Montreal) have no missing points, we need to start by applying a 2nd filter in order to isolate Miami, then apply the cut in Y.
 
-![Texte alternatif](/img/tuto2/cut_Y_temp_Miami.png){:width="600px"}
+![Texte alternatif](/img/tuto2/cut_Y_temp_Miami.png){: width="500px" class="center"}
 
 
 
