@@ -21,7 +21,7 @@ The [Correlate ts loop](/doc/operators/correlateTsLoop.html) operator can be con
 
 We obtain a correlation matrix averaged over the entire dataset.
 
-![Alternate text](/img/tuto6/correlationLoop.png "correlation loop")
+![Alternate text](/img/tuto6/correlationLoop.png "correlation loop"){: width="900px" class="center"}
 
 Clicking on a box displays a detailed description of the correlation indices between two indicators for each of the 36 cities in the dataset.
-![Alternative text](/img/tuto6/humidity_vs_weather_desc.png "weather_description")
+![Alternative text](/img/tuto6/humidity_vs_weather_desc.png "weather_description"){: width="600px" class="center"}
