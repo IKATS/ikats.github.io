@@ -10,7 +10,7 @@ How To...
 =========
 >## How to start?
 * You have either already ingested your data or not. IKATS allows you either to start from a DataSelection or to start from a workflow already saved.
-See  the [Tutorials](/tutorials.html) section for pratice.
+See  the [Tutorials](/tutorials.html) section for practice.
 
 <!--How to use a ML?
 
