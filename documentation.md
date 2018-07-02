@@ -18,13 +18,13 @@ General architecture is overviewed in <a href="architecture.html">IKATS's Archit
 Repository  Documentation
 =============
 
-For quick access, have a look in the README.md of each repository in the  <a href="{{ site.links.organisation }}">IKATS
+For quick access, have a look at the README.md of each repository in the  <a href="{{ site.links.organisation }}">IKATS
 repositories</a>.
 
 In particular you will find some explanations on the TemporalDataManager web application to IKATS which is available in [Data Model  README.md](https://github.com/IKATS/ikats-datamodel/blob/master/README.md)..
 
 
-In the same way, you will find information about how to ingest data autoamtically in the [Ingestion README.md](https://github.com/IKATS/ikats-ingestion/blob/master/README.md).
+In the same way, you will find information about how to ingest data automatically in the [Ingestion README.md](https://github.com/IKATS/ikats-ingestion/blob/master/README.md).
 
 
 

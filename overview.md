@@ -16,7 +16,7 @@ Here below are the main principles you need to understand before using IKATS.
 
 ![Texte alternatif](/img/ikats_interface.png "IKATS interface"){:width="600px"}
 
-When an operator has run and the status is ok (its color turns green), a simple doubli-click on the opertor opens the visualisation tool here you can interact with the result.
+When an operator has run and the status is ok (its color turns green), a simple double-click on the operator opens the visualisation tool where you can interact with the result.
 
 Via the workflow editor, you can create new workflows, and using the main menu you will then be able to save them, or to open and change an existing one.
 
