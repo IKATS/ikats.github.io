@@ -22,7 +22,7 @@ It takes 3 inputs from the user :
 The operator has two outputs :
 
  - **Text** : table name
- - **Table** : table visualization
+ - **Table** : table visualisation
 
 ## Example
 See [Imports tutorial](/doc/tutorials/tuto_imports.html)

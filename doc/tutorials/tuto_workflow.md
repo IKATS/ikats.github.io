@@ -27,7 +27,7 @@ Herunder the main principles you just need to understand before you use IKATS.
 
 ### Operators menu
 
-In IKATS, all the functions (data import, selection, transformation, training of an algorithm, ...) are packaged in an operator. An operator includes entries (a Dataset, a list of Timeseries, a table ...), usually parameters, and often one or more output(s) (transformed objects that will be used by the following operators in the workflow). A visualization tool is also integrated with each operator ( `double click` on the operator and then click on the eye in the menu that appears to open the visualisation tool).
+In IKATS, all the functions (data import, selection, transformation, training of an algorithm, ...) are packaged in an operator. An operator includes entries (a Dataset, a list of Timeseries, a table ...), usually parameters, and often one or more output(s) (transformed objects that will be used by the following operators in the workflow). A visualisation tool is also integrated with each operator ( `double click` on the operator and then click on the eye in the menu that appears to open the visualisation tool).
 
 By default, a [Dataset Selection](/doc/operators/DatasetSelection.html) operator is already integrated into the Workflow.
 
@@ -41,7 +41,7 @@ An operator has a state:
 
 The Portfolio Dataset (which contains 13 Timeseries) has been loaded.
 
-Now, choose the [Slope](/doc/operators/slope.html) operator from the `Operators` drop-down menu, click and drop in the workflow, and link the TS list output of the [Dataset Selection](/doc/operators/datasetSelection.html) operator to the entry `TS list` of the [Slope](/doc/operators/slope.html) operator. Click on the operator Slope. A contextual menu appears on the right. Slope does not take parameters, just click on `run`. A calculation of slope is realized on the 13 time series. After a few seconds, the operator turns green and you have access to the visualization of the new TS.
+Now, choose the [Slope](/doc/operators/slope.html) operator from the `Operators` drop-down menu, click and drop in the workflow, and link the TS list output of the [Dataset Selection](/doc/operators/datasetSelection.html) operator to the entry `TS list` of the [Slope](/doc/operators/slope.html) operator. Click on the operator Slope. A contextual menu appears on the right. Slope does not take parameters, just click on `run`. A calculation of slope is realized on the 13 time series. After a few seconds, the operator turns green and you have access to the visualisation of the new TS.
 
 At this point, we checked for access to most components (Hbase, OpenTSDB, Java for data selection, Spark and the Python layer of algorithms with slope computation).
 

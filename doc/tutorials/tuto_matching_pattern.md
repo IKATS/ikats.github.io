@@ -11,7 +11,7 @@ Pattern matching
 
 In signal analysis, an important feature is the identification of patterns, which may be characteristic of a particular event.
 
-To illustrate the use of this operator, we start by viewing a Time series (here it is the TS New-York_temperature from the `Hourly_weather_36cities_1` dataset). We chose a small area of ​​this TS (see [Tutorial 2 : Time series visualization](/doc/tutorials/tuto_vizTools.html) to see how to interact with a TS). Note that the selection must contain less than 5000 points. We save this pattern by clicking on the `save visible area as new TS` button and name it `NY_partA`.
+To illustrate the use of this operator, we start by viewing a Time series (here it is the TS New-York_temperature from the `Hourly_weather_36cities_1` dataset). We chose a small area of ​​this TS (see [Tutorial 2 : Time series visualisation](/doc/tutorials/tuto_vizTools.html) to see how to interact with a TS). Note that the selection must contain less than 5000 points. We save this pattern by clicking on the `save visible area as new TS` button and name it `NY_partA`.
 
 ![Alternate Text](/img/tuto7/pattern_to_match.png)
 

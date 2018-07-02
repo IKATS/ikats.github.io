@@ -23,7 +23,7 @@ It also takes 1 input from the user :
 The operator has two outputs :
 
  - **Model** : a binary dump of the best model found by the procedure
- - **result** : Clusters visualization of the inpout patterns, including centroïds positions
+ - **result** : Clusters visualisation of the inpout patterns, including centroïds positions
 
 ## Example
 The  [SAX and K-means tutorial](/doc/tutorials/tuto_random_projection.html) will be soon completed with the kmeans visualisation.
@@ -31,7 +31,7 @@ The  [SAX and K-means tutorial](/doc/tutorials/tuto_random_projection.html) will
 
 ## Warning
 
-For the moment the visualization tool is not completely implemented for this operator : onlyclusters are visualised, but the olinks and tooltips does not work.The developement is in progress.
+For the moment the visualisation tool is not completely implemented for this operator : onlyclusters are visualised, but the olinks and tooltips does not work.The developement is in progress.
 
 
 Return to the [list of all operators](/operators.html)

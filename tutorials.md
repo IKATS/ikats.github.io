@@ -13,9 +13,9 @@ Welcome !
 ---------
 
 
-By choosing of the right operator and their connections, it is easy to build complex workflows for a broad variety of data analysis tasks. You can access the Data output associated with the operator and its associated Visualization at any time.
+By choosing of the right operator and their connections, it is easy to build complex workflows for a broad variety of data analysis tasks. You can access the Data output associated with the operator and its associated visualisation at any time.
 
-IKATS is innovative in  that you don't have to spend your time struggling with the choice of Data visualization. IKATS includes `Interactive visualizations` to enable exploratory data analysis, so you can stay focused on your analysis.
+IKATS is innovative in  that you don't have to spend your time struggling with the choice of Data visualisation. IKATS includes `Interactive visualisations` to enable exploratory data analysis, so you can stay focused on your analysis.
 
 These are extremelly powerful features when you want to mine your data step by step.
 
@@ -25,7 +25,7 @@ The following series of tutorials will guide you through the discovery of IKATS,
 
 [Tutorial 1 : Basics](/doc/tutorials/tuto_basics.html)
 
-[Tutorial 2 : Time series visualization](/doc/tutorials/tuto_vizTools.html)
+[Tutorial 2 : Time series visualisation](/doc/tutorials/tuto_vizTools.html)
 
 [Tutorial 3 : Import your data](/doc/tutorials/tuto_imports.html)
 
