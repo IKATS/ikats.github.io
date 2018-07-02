@@ -23,7 +23,7 @@ It also takes 1 input from the user :
 The operator has two outputs :
 
  - **Model** : a binary dump of the best model found by the procedure
- - **result** : Clusters visualization, including centroïds positions  
+ - **result** : Clusters visualisation, including centroïds positions  
 
 ## Example
 See [SAX and K-means tutorial](/doc/tutorials/tuto_sax.html)

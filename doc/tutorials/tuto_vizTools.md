@@ -6,10 +6,10 @@ published: true
 ---
 
 
-Time series visualization
+Time series visualisation
 ---------------------------------------------
 
-One of the first features is browsing the timeseries and their visualization.
+One of the first features is browsing the timeseries and their visualisation.
 
 First of all, let's start by selecting the `webTraffic 1` dataset (1), then filter some TS (2) (here French sites starting with the letter C and having a certain audience).
 
@@ -21,7 +21,7 @@ Let's look at the output TS list (1): TS can be viewed in different ways via the
 
 <img src="/img/tuto1/TSTables.png" width="600" class="center">
 
-The second tab `curve` allows the visualization of the entire selection.
+The second tab `curve` allows the visualisation of the entire selection.
 
 <img src="/img/tuto1/curve1.png" width="600" class="center">
 
@@ -36,6 +36,6 @@ After some selections and zooms, we follow time series fr_candide and fr_Coluche
 
 <img src="/img/tuto1/curve3.png" width="600" class="center">
 
-To verify this, we choose the `scatterPlot` visualization option in the drop-down menu that allows us to easily confirm this impression.
+To verify this, we choose the `scatterPlot` visualisation option in the drop-down menu that allows us to easily confirm this impression.
 
 <img src="/img/tuto1/scatterPlot.png" width="600" class="center">

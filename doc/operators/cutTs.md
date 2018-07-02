@@ -27,7 +27,7 @@ Cut out values that do not match a certain expression. Useful for removing outli
 
 ## Cut Visual Area
 
-in the visualization menu of a TS, you can zoom on an interesting part and click on the button `Save visible area as a new TS`.
+in the visualisation menu of a TS, you can zoom on an interesting part and click on the button `Save visible area as a new TS`.
 
 See an example on [Tutorial 9 : Matching patterns](/doc/tutorials/tuto_matching_pattern.html)
 

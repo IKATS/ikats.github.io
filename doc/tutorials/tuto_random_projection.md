@@ -22,7 +22,7 @@ The implementation in IKATS is based on [SAX](/doc/operators/sax.html). In summa
 We filter a subset of 7 TS (country: Russia and name begin with A) and then apply a random projection.
 Parameters are provided with default values and can be optimized as needed.
 
-Here, in order to show the ability of the algorithm to identify very similar patterns, we chose a strong `sequences size` and decreased the `neighborhood radius` to restrict the visualization to obvious matchings.
+Here, in order to show the ability of the algorithm to identify very similar patterns, we chose a strong `sequences size` and decreased the `neighborhood radius` to restrict the visualisation to obvious matchings.
 
 ![Alternate Text](/img/tuto8/params_random_projection.png)
 

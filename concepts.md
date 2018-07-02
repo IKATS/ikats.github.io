@@ -84,7 +84,7 @@ Table
 ------
 A table can be useful to present information such as statistics or other results computed from the datasets.
 A table in IKATS looks like any table  used in databases or in any Excel, with rows and columns. Rows and columns may have a header giving labels of these rows / columns.
-According to the data included in the table, the user may interact with it. For instance, if a cell / row contains information concerning a unique timeseries, a simple click on this cell / line will open the visualization tool for this timeseries.
+According to the data included in the table, the user may interact with it. For instance, if a cell / row contains information concerning a unique timeseries, a simple click on this cell / line will open the visualisation tool for this timeseries.
 
 
 DS_name

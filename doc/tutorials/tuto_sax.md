@@ -28,6 +28,6 @@ The data present 45000 hours. 200 H segments (a little over 8 days) were chosen.
 
 We connect the [K-means](/doc/operators/kmeans.html) operator to the SAX output by choosing for example 4 clusters.
 
-![Alternate Text](/img/tuto5/kmeans_sax.png "Clusters Visualization"){: .center-image, width="600px" }
+![Alternate Text](/img/tuto5/kmeans_sax.png "Clusters visualisation"){: .center-image, width="600px" }
 
 Cities names are accessible by simply hovering over the mouse. The relevance of clustering is easily verified, with nearby cities within the same clusters.
