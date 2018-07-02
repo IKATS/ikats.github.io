@@ -14,7 +14,7 @@ The workbench and interface
 
 IKATS is a Visual environment to help Data scientists design a workflow accelerating Big Data exploration.
 
-* Easy2Use Web based graphical environment
+* Easy-to-Use Web based graphical environment
 * No programming required
 * Visual representation to design complex Data mining
     * Easy to understand: Every step is an operator
@@ -34,13 +34,13 @@ Data Manipulation
 A choice of operators dedicated to the import and selection of data, in the form of dataset, timeseries or tables.
 
 
-Data Visualization
+Data Visualisation
 -------------------
-Operator outputs offer specific visualizations.
+Operator outputs offer specific visualisations.
 * Navigation between different visualisations,
 * Interesting data can be selected from plots, graphs and/or tables and be mined.
 * Exploring TS with huge amounts of points, by using zoom and dag capabilities.
-* Big data specific Visualisation tools, such as heatmaps
+* Big data specific visualisation tools, such as heatmaps
 
 Explore the list of operators via [Operators list](/operators.html).
 
@@ -54,4 +54,4 @@ Data Management
 With IKATS, you can load timeseries data in different **DataSets** associated with metadata.
 * Timeseries dedicated
 * Import/export data values
-* Automatically stores all intermediary workflow results.
+* Automatically store all intermediary workflow results.
