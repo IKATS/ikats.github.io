@@ -1,6 +1,6 @@
 
 ---
-title: CONTRIBUTING
+title: contribute
 date: 2018-07-02 10:00:00 +02:00
 layout: default
 published: true
