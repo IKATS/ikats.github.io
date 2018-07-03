@@ -50,22 +50,22 @@ At this point, we checked for access to most components (Hbase, OpenTSDB, Java f
 
 Now save our new workflow (menu `Workflow Mgt / Save`).
 
-![Texte alternatif](/img/tuto00/SaveWorkflow.png "Save Workflow")
+![Texte alternatif](/img/tuto00/SaveWorkflow.png "Save Workflow"){:  width="600px" class="center"}
 
 It now appears in the list of workflows that can be loaded.
 
-![Texte alternatif](/img/tuto00/loadWorkflow.png "Save Workflow")
+![Texte alternatif](/img/tuto00/loadWorkflow.png "Save Workflow"){:  width="600px" class="center"}
 
 ### Datasets Management
 
 With the use of the [Slope](/doc/operators/slope.html) operator, we generated new TS (double click on the operator and then on the eye in the menu that appears)
 
-![Texte alternatif](/img/tuto00/newTSSlope.png "TS created by slope")
+![Texte alternatif](/img/tuto00/newTSSlope.png "TS created by slope"){: class="center"}
 
 These TS are stored in database (we can apply the [TSFinder](/doc/operators/tsFinder.html) operator from any workflow of IKATS), referenced in the workflow (if you close and reopen the workflow **test_installation**, these TS are still available in the Slope operator's results), but not yet linked to a Dataset (which facilitates their grouped use). Let us use the [saveAsDataset](/doc/operators/saveAsDataset.html) operator on the Slope operator output and give the new Dataset the name *Portfolio_slope*.
 
 Now the Dataset appears in the Datasets list (`Data Mgt/Datasets` menu).
 
-![Texte alternatif](/img/tuto00/deleteDataset.png "Menu delete a dataset")
+![Texte alternatif](/img/tuto00/deleteDataset.png "Menu delete a dataset"){: class="center"}
 
 Two delete actions are available from this menu. The blue bin removes the link between the TS and the Dataset (*the container object*), the Dataset is deleted but not the associated TS. The red bin removes Dataset and TS, provided that TS are not still linked to another Dataset.
