@@ -20,9 +20,7 @@ Now it's time to show you how IKATS works. We will also launch some operations t
 
 IKATS provides an easy to use way to manipulate operators in order to explore and analyze time series.
 
-Herunder the main principles you just need to understand before you use IKATS.
-
-![Texte alternatif](/img/ikats_interface.png "IKATS interface"){:width="600px"}
+If needed, let's have a look at <a href="/overview.html"> Overview page</a>  to understand main principles of how to use IKATS.
 
 
 ### Operators menu
