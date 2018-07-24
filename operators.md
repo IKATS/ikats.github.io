@@ -83,5 +83,5 @@ Here are "macro-operators" rather than real operators. Here you will manage shor
 The maco-operators which will appear in this list is under the user responsability.
 
 ### Warning
-========
+
 The search functionality just applies on operators and not on macro-operators listed in 'My Operators'

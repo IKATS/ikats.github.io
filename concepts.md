@@ -87,7 +87,7 @@ Table
 A table can be useful to store / present information such as statistics or a learning set for the machine learning phase or other results computed from the datasets. A table in IKATS looks like any table  used in databases or in any Excel, with rows and columns. Rows and columns may have a header giving labels of these rows / columns.
 
 
-A table can be imported form a csv file va the [Population selection](/doc/operators/populationSelection.html) operator or reloaded via the [Read](/doc/operators/readtable.html) operator.
+A table can be imported form a csv file va the [Population selection](/doc/operators/populationSelection.html) operator or reloaded via the [Read](/doc/operators/readTable.html) operator.
 
 
 According to the data included in the table, mainly when the table is built by IKATS's specific operators (like the [Correlation Loop](/doc/operators/correlateTsLoop.html) operator), the user may interact with it. For instance, if a cell / row contains information concerning a unique timeseries, a simple click on this cell / line will open the visualisation tool for this timeseries.
@@ -106,4 +106,4 @@ This data defines a list of grouped patterns used to store and to visualize sear
 Other types
 --------
 
-Some operators manipulate specific objects. You will find the information on the expected input in the [operator documentation](/operators.html) or direct technical information is provided in  <a href="https://github.com/IKATS/IKATS/IKATS_types.md">IKATS types page </a>.
+Some operators manipulate specific objects. You will find the information on the expected input in the [operator documentation](/operators.html) or direct technical information is provided in  <a href="https://github.com/IKATS/IKATS/blob/master/IKATS_types.md">IKATS types page </a>.
