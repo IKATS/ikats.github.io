@@ -6,16 +6,16 @@ published: true
 ---
 
 # Import TS
-This IKATS operator allows to import a set of timeseries located in the `/var/lib/ikats/IKATSDATA` CSV files
+This IKATS operator allows to import a set of timeseries located in the `/var/lib/ikats/IKATSDATA`, in CSV files.
 
-## Operator Description:
+## Operator Description
 
-From the Root Path, the operator will scan for CSV files in sub directories and will import the points of each to IKATS.
+From the Root Path, the operator will scan for CSV files in all requested sub directories and will import the points of each to IKATS.
 In a same time, depending on the path structure, it will extract some metadata and will associate them to the timeseries being created.
 
 ### CSV file format
 - Column separator is `;`
-- extension may be different from CSV, only the content is checked
+- Extension may be different from CSV, only the content is checked
 - First line will be skipped but is usually filled with `Time;Value`
 - Each line refers to a single point referenced by a date and a value
   - *date* shall be compliant with the format : `[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]([0-9]{2})?` (or `YYYY-MM-DDTHH:mm:ss.xxx` where xxx may have 1 or 3 digits, and hour is expressed in 24h format).
@@ -44,10 +44,12 @@ This operator produces 3 outputs:
 ## Example
 
 ### Path structure
-/portfolioMGH1/data/Group1/ewa.txt
-/portfolioMGH1/data/Group1/ewb.txt
-/portfolioMGH1/data/Group2/ewc.txt
+/portfolioMGH1/data/Group1/ewa.txt<br/>
+/portfolioMGH1/data/Group1/ewb.txt<br/>
+/portfolioMGH1/data/Group2/ewc.txt<br/>
 /portfolioMGH1/data/Group2/ewd.txt
+
+In this case, we have access to two metadata: the `Group` (between "Group1" and "Group2"), and the `metric` ("ewa", "ewb", "ewc", "ewd").
 
 ### Parameters
 - **Dataset**: `DS_Test`
@@ -56,24 +58,26 @@ This operator produces 3 outputs:
 - **Path mapping rule**: `/data/Group(?<group>[0-9]+)/(?<metric>.*)\.txt`
 - **FID name rule**: `Portfolio_${group}_${metric}`
 
-Need help with regex ? [regex101][https://regex101.com/)
+Indeed, with this set of **Path mapping rule** parameter, operator will read all sub-directories, and create two metadata (`<group>` and `<metric>`), corresponding to two level of folder.
+
+Need help with regex ? See [regex101](https://regex101.com/).
 
 
 ### Expected results
 
-4 TS created:
-Portfolio_1_ewa with following metadata : group=1, metric=ewa
-Portfolio_1_ewb with following metadata : group=1, metric=ewb
-Portfolio_2_ewc with following metadata : group=2, metric=ewc
+4 TS created:<br/>
+Portfolio_1_ewa with following metadata : group=1, metric=ewa<br/>
+Portfolio_1_ewb with following metadata : group=1, metric=ewb<br/>
+Portfolio_2_ewc with following metadata : group=2, metric=ewc<br/>
 Portfolio_2_ewd with following metadata : group=2, metric=ewd
 
 
-See another example in [Tutorial 3 : Import your data](/doc/tutorials/tuto_imports.html) 
+See another example in [Tutorial 3 : Import your data](/doc/tutorials/tuto_imports.html)
 
 ## Warnings
   Due to OpenstSDB , import is not possible for data with timestamp inferior to 10000000000 ( date of 26 Apr 1970 17:46:40 ).
 
-  In case of error, it can become impossible to run again the import operator, even with new parameters. In this case, click on Ctrl-SHit-R creat a new workflow, and run again the import with new parameters.
+  In case of error, it can become impossible to run again the import operator, even with new parameters. In this case, press Ctrl-SHit-R, create a new workflow, and run again the import with new parameters.
 
 
 Return to the [list of all operators](/operators.html)

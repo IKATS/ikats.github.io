@@ -11,13 +11,13 @@ This IKATS operator reduces the number of points in a timeseries by combining se
 
 ## Input and parameters
 
-This operator only takes one input of the functional type `ds_name`.
+This operator only takes one input of the functional type `Table`.
 
 It also takes upto 3 inputs from the user :
 
-- **Number of buckets** : How many buckets to divide the timeseries into.
-- **Table name** : The name given to the table ___________
-- **Operators** : Select upto 4 operators to be applied to each bucket. Each bucket-operator combination will have a column in the output table with the suffix operator_bucketNo. The four operators are:
+- **Population label** : How many buckets to divide the timeseries into.
+- **Aggregated by** : The name given to the table ___________
+- **Output table name** : Select upto 4 operators to be applied to each bucket. Each bucket-operator combination will have a column in the output table with the suffix operator_bucketNo. The four operators are:
         - MIN: the minimum value in each bucket
         - MAX: the maximum value in each bucket
         - AVG: the mean of all the values in the bucket

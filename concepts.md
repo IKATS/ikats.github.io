@@ -12,7 +12,7 @@ Please refer to the [Tutorials](/tutorials.html) for a step by step introduction
 
 This page introduces all IKATS Concepts.
 
-DataSet
+Dataset
 -------
 A dataset is a collection of timeseries (TS) you will manipulate in IKATS Workbench.
 
@@ -32,7 +32,7 @@ Note :
 Operators can be native or customized by the user (`My operators`). In future versions, it will be possible to integrate new operators via contributions.
 
 
-[Operator] Parameters
+Operator parameters
 ----------
 Each operator uses a set of parameters that the user may define through the `Parameters contextual menu`. Once the user has setup all parameters, he can « launch / trigger  » the operator so IKATS processes input data and computes the result.
 
@@ -106,4 +106,4 @@ This data defines a list of grouped patterns used to store and to visualize sear
 Other types
 --------
 
-Some operators manipulate specific objects. You will find the information on the expected input in the [operator documentation](/operators.html) or direct technical information is provided in  <a href="https://github.com/IKATS/IKATS/blob/master/IKATS_types.md">IKATS types page </a>.
+Some operators manipulates specific objects. You will find the information on the expected input in the [operator documentation](/operators.html) or direct technical information is provided in  <a href="https://github.com/IKATS/IKATS/blob/master/IKATS_types.md">IKATS types page </a>.

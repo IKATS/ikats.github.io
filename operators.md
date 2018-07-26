@@ -1,5 +1,5 @@
 ---
-title: Operators ...
+title: Operators
 date: 2017-09-29 10:00:00 +02:00
 layout: default
 published: true
@@ -34,9 +34,11 @@ Operators list..
 - [Rollmean](/doc/operators/rollmean.html)
 
 > ### Reduction
-- [Cut DS](/doc/operators/cutTs.html)
+- [Cut DS](/doc/operators/cutDs.html)
 - [Cut DS by Metric](/doc/operators/cutByMetric.html)
 - [Cut-Y](/doc/operators/cutY.html)
+
+>*A global summary of the `cut` operators is available [here](/doc/operators/cutTs.html).*
 
 > ### Transforming
 - [Ts2Feature](/doc/operators/ts2Feature.html)

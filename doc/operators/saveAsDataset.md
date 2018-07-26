@@ -6,7 +6,8 @@ published: true
 ---
 # Save as a dataset
 
-Create a dataset from a TS list.
+Create (and save) a dataset from a TS list.
+This new dataset is available in `Data Mgt/Datasets` (see [Tutorial 0 : Check Installation](/doc/tutorials/tuto_basics.html) for details).
 
 ## Input and parameters
 
@@ -18,7 +19,8 @@ It also takes 3 parameters from the user :
 - **Dataset Name** : the name of the future dataset
 - **Description** : Information for dataset users
 
-warning: dataset name must be unique and not contain any space
+### Warning
+Dataset name must be unique and not contain any space.
 
 
 ## Outputs

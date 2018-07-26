@@ -17,7 +17,7 @@ See  the [Tutorials](/tutorials.html) section for practice.
 How to use Jupyter? -->
 
 >## ... create a new TS from an existing one ?
-* IKATS offers several ways to [cut a TS](/doc/operators/cutTs.html) and create a new one
+* IKATS offers several ways to [cut a TS](/doc/operators/cutTs.html) and create a new one.
 
 
 >## ... save operator parameters to allow them to be reused?
