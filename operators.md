@@ -43,7 +43,7 @@ Operators list..
 > ### Transforming
 - [Ts2Feature](/doc/operators/ts2Feature.html)
 - [Discretize](/doc/operators/discretize.html)
-- [Resample](/doc/operators/resample.html)
+- [Resampling TS](/doc/operators/resample.html)
 - [SAX](/doc/operators/sax.html)
 - [Slope](/doc/operators/slope.html)
 - [Unwrap](/doc/operators/unwrap.html)
@@ -57,7 +57,7 @@ Operators list..
 
 ## Processing on Tables
 - [Read Table](/doc/operators/readTable.html)
-<!-- [Add TS Column](/doc/operators/addTsColumn.html)-->
+- [Add TS Column](/doc/operators/addTsColumn.html)
 - [TrainTestSplit](/doc/operators/trainTestSplit.html)
 - [Merge Tables](/doc/operators/mergeTables.html)
 
@@ -86,4 +86,4 @@ The maco-operators which will appear in this list is under the user responsabili
 
 ### Warning
 
-The search functionality just applies on operators and not on macro-operators listed in 'My Operators'
+The search functionality just applies on operators and not on macro-operators listed in 'My Operators'.

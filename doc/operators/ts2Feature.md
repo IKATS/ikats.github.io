@@ -6,7 +6,7 @@ published: true
 ---
 # Ts2Feature
 
-This IKATS operator reduces the number of points in a timeseries by combining sections of the timeseries into buckets and applying one of four functions (min, max, mean, or standard deviation).
+Transform a `Table` object by aggregating its components.
 
 
 ## Input and parameters
@@ -15,21 +15,17 @@ This operator only takes one input of the functional type `Table`.
 
 It also takes upto 3 inputs from the user :
 
-- **Population label** : How many buckets to divide the timeseries into.
-- **Aggregated by** : The name given to the table ___________
-- **Output table name** : Select upto 4 operators to be applied to each bucket. Each bucket-operator combination will have a column in the output table with the suffix operator_bucketNo. The four operators are:
-        - MIN: the minimum value in each bucket
-        - MAX: the maximum value in each bucket
-        - AVG: the mean of all the values in the bucket
-        - STD: the standard deviation of all the values in the bucket
+- **Population label** : Property used to identify rows in the inputed Table.
+- **Aggregated by** : used to aggregate input columns in order to create new features.
+- **Output table name** : Name of the output table
 
 ## Outputs
 
 The operator has one output:
 
- - **Table** : _______
+ - **Table** : The newly created table
 
- For an example : See [How to parse timeseries and create new features](/doc/tutorials/tuto_Ts2Feature.html)
+ For an example : see [Tutorial 6 : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
 
 
  Return to the [list of all operators](/operators.html)

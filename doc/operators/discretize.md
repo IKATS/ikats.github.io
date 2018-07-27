@@ -15,9 +15,8 @@ This operator only takes one input of the functional type **DS_name**.
 
 It also takes upto 3 inputs from the user :
 
-- **Number of buckets** : How many buckets to divide the time series into.
-- **Table name** : The name given to the table   
-:warning: must be unique
+- **Number of buckets** : How many buckets to divide the time series into
+- **Table name** : The name given to the table (must be unique)
 - **Operators** : Select upto 4 operators to be applied to each bucket. Each bucket-operator combination will have a column in the output table with the suffix operator_bucketNo. The four operators are:
         - MIN: the minimum value in each bucket
         - MAX: the maximum value in each bucket
@@ -28,10 +27,9 @@ It also takes upto 3 inputs from the user :
 
 The operator has one output:
 
- - **Table** : _______
+ - **Table** : The newly created table
 
-
- See this [Tutorial](/doc/tuto_TS2Feature.html) for a practical example
+ For an example : see [Tutorial 6 : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
 
 
 Return to the [list of all operators](/operators.html)
