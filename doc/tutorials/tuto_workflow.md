@@ -11,7 +11,7 @@ Welcome !!
 You have probably completed the installation of IKATS and launched the application ( see
   <a href="https://github.com/IKATS/ikats-sandbox">installation tutorial</a> otherwise). Now let's connect to the interface (just type `localhost` in a browser). You should access this screen.
 
-![Texte alternatif](/img/tuto00/DatasetSelection.png "Default screen interface"){:  width="600px" class="center"}
+![Texte alternatif](/img/tuto_workflow/DatasetSelection.png "Default screen interface"){:  width="600px" class="center"}
 
 Now it's time to show you how IKATS works. We will also launch some operations to validate the correct installation of all components.
 
@@ -36,7 +36,7 @@ IKATS provides multiple visualization tools. When `double click` on an operator,
   * *ScatterPlot* : Perform a scatter plot over a pair of TimeSeries
   * *TSTable* : See the recap of TimeSeries into the operator.
 
-![Top left of IKATS operator menu](/img/tuto00/visualize_menu.png "Top left of IKATS operator menu"){:  width="600px" class="center"}
+![Top left of IKATS operator menu](/img/tuto_workflow/visualize_menu.png "Top left of IKATS operator menu"){:  width="600px" class="center"}
 
 Note that some visualizations are specific to some operators ([Sax](/doc/operators/sax.html), [k-means](/doc/operators/kmeans.html)).
 
@@ -53,7 +53,7 @@ In our case, if it turns green, then, the Portfolio Dataset (which contains 13 T
 Now, choose the [Slope](/doc/operators/slope.html) operator from the `Operators` menu (left menu), drag and drop in the workflow. Link the `TS list` output of the [Dataset Selection](/doc/operators/datasetSelection.html) operator to the entry `TS list` of the [Slope](/doc/operators/slope.html) operator. Click on the operator Slope. A contextual menu appears on the right.
 Slope does not take parameters, just click on `run`. A calculation of slope is realized on the 13 time series. After a few seconds, the operator turns green and you have access to the visualization of the new TS.
 
-![Example of workflow](/img/tuto00/slope.png "Slope"){:  width="600px" class="center"}
+![Example of workflow](/img/tuto_workflow/slope.png "Slope"){:  width="600px" class="center"}
 
 At this point, we checked for access to most components (Hbase, OpenTSDB, Java for data selection, Spark and the Python layer of algorithms with slope computation).
 
@@ -62,24 +62,26 @@ At this point, we checked for access to most components (Hbase, OpenTSDB, Java f
 
 Now save our new workflow (menu `Workflow Mgt / Save`).
 
-![Texte alternatif](/img/tuto00/SaveWorkflow.png "Save Workflow"){:  width="600px" class="center"}
+![Texte alternatif](/img/tuto_workflow/SaveWorkflow.png "Save Workflow"){:  width="600px" class="center"}
 
 It now appears in the list of workflows that can be loaded.
 
-![Texte alternatif](/img/tuto00/loadWorkflow.png "Load Workflow"){:  width="600px" class="center"}
+![Texte alternatif](/img/tuto_workflow/loadWorkflow.png "Load Workflow"){:  width="600px" class="center"}
 
 ### Datasets Management
 
 With the use of the [Slope](/doc/operators/slope.html) operator, we generated new TS (double click on the operator and then on the little eye in the menu that appears)
 
-![Texte alternatif](/img/tuto00/newTSSlope.png "TS created by slope"){: class="center"}
+![Texte alternatif](/img/tuto_workflow/newTSSlope.png "TS created by slope"){: class="center"}
 
-These TS are stored in database (we can apply the [TSFinder](/doc/operators/tsFinder.html) operator from any workflow of IKATS), referenced in the workflow (if you close and reopen the workflow **test_installation**, these TS are still available in the Slope operator's results), but not yet linked to a Dataset (which facilitates their grouped use). Let us use the [saveAsDataset](/doc/operators/saveAsDataset.html) operator on the Slope operator output and give the new Dataset the name *Portfolio_slope*.
+These TS are stored in database (we can apply the [TSFinder](/doc/operators/tsFinder.html) operator from any workflow of IKATS), referenced in the workflow (if you close and reopen the workflow `test_installation`, these TS are still available in the Slope operator's results), but not yet linked to a Dataset (which facilitates their grouped use). Let us use the [saveAsDataset](/doc/operators/saveAsDataset.html) operator on the Slope operator output and give the new Dataset the name *Portfolio_slope*.
 
-![Save as dataset](/img/tuto00/SaveAsDataset.png "Save as dataset"){:  width="600px" class="center"}
+![Save as dataset](/img/tuto_workflow/SaveAsDataset.png "Save as dataset"){:  width="600px" class="center"}
 
 Now the Dataset appears in the Datasets list (`Data Mgt/Datasets` menu).
 
-![Texte alternatif](/img/tuto00/deleteDataset.png "Menu delete a dataset"){: class="center"}
+![Texte alternatif](/img/tuto_workflow/deleteDataset.png "Menu delete a dataset"){: class="center"}
 
 Two delete actions are available from this menu. The blue bin removes the link between the TS and the Dataset (*the container object*), the Dataset is deleted but not the associated TS. The red bin removes Dataset and TS, provided that TS are not still linked to another Dataset.
+
+Return to the [list of all tutorials](/tutorials.html).

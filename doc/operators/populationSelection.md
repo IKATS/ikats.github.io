@@ -24,7 +24,7 @@ The operator has two outputs :
  - **Table** : the requested dataset as a `Table`
 
 ## Example
-See [Tutorial 3 : Import your data](/doc/tutorials/tuto_imports.html).
+See [Tutorial : Import your data](/doc/tutorials/tuto_imports.html).
 
 
 

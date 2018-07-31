@@ -72,7 +72,7 @@ Portfolio_2_ewc with following metadata : group=2, metric=ewc<br/>
 Portfolio_2_ewd with following metadata : group=2, metric=ewd
 
 
-See another example in [Tutorial 3 : Import your data](/doc/tutorials/tuto_imports.html)
+See another example in [Tutorial : Import your data](/doc/tutorials/tuto_imports.html)
 
 ## Warnings
   Due to OpenstSDB , import is not possible for data with timestamp inferior to 10000000000 ( date of 26 Apr 1970 17:46:40 ).

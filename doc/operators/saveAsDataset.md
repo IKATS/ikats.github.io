@@ -7,7 +7,7 @@ published: true
 # Save as a dataset
 
 Create (and save) a dataset from a TS list.
-This new dataset is available in `Data Mgt/Datasets` (see [Tutorial 0 : Check Installation](/doc/tutorials/tuto_basics.html) for details).
+This new dataset is available in `Data Mgt/Datasets` (see [Tutorial : Check Installation](/doc/tutorials/tuto_basics.html) for details).
 
 ## Input and parameters
 

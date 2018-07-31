@@ -29,7 +29,7 @@ The operator has one output:
 
  - **Table** : The newly created table
 
- For an example : see [Tutorial 6 : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
+ For an example : see [Tutorial : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
 
 
 Return to the [list of all operators](/operators.html)

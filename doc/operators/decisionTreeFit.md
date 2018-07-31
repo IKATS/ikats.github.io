@@ -27,6 +27,6 @@ The operator has two outputs :
  - **Model** : a binary dump of the best model found by the procedure, to be used by the Decision Tree Predict operator
  - **Dot** : the visualisation of the best found decision tree in the GraphViz format. For a proper visualize, you can copy the `Dot Text` into a [graph visualization tool](http://www.webgraphviz.com/).
 
-See examples in [Tutorial 7 : Geolocation prediction using Random Trees](/doc/tutorials/tuto_ML.html).
+See examples in [Tutorial : Geolocation prediction using Random Trees](/doc/tutorials/tuto_ML.html).
 
 Return to the [list of all operators](/operators.html).

@@ -30,7 +30,7 @@ Cut out values that do not match a certain expression. Useful for removing outli
 In the visualisation menu of a TS, you can zoom on an interesting part and click on the button `Save visible area as a new TS`.
 ![Texte alternatif](/img/operators/cutTS_save_visible.png "IKATS save visible"){:width="600px"}
 
-See an example on [Tutorial 9 : Matching patterns](/doc/tutorials/tuto_matching_pattern.html).
+See an example on [Tutorial : Matching patterns](/doc/tutorials/tuto_matching_pattern.html).
 
 
 Return to the [list of all operators](/operators.html)

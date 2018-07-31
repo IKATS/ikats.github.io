@@ -29,6 +29,6 @@ The operator has one output :
  - **Correlation_matrix** : a correlation matrix averaged over the entire dataset
 
 
- For an example : see [Tutorial 5 : Features correlation](/doc/tutorials/tuto_corr.html).
+ For an example : see [Tutorial : Features correlation](/doc/tutorials/tuto_corr.html).
 
 Return to the [list of all operators](/operators.html)

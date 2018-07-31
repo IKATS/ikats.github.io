@@ -60,7 +60,7 @@ Where `usa_pop` is:
   </TABLE>
   <br/>
 
- For other examples, see [Tutorial 4 : Filter and clean data](/doc/tutorials/tuto_cutY.html)
+ For other examples, see [Tutorial : Filter and clean data](/doc/tutorials/tuto_cutY.html)
 
 
 Return to the [list of all operators](/operators.html)

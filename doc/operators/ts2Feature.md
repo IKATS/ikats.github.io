@@ -15,7 +15,7 @@ This operator only takes one input of the functional type `Table`.
 
 It also takes upto 3 inputs from the user :
 
-- **Population label** : Property used to identify rows in the inputed Table.
+- **Population label** : Property used to identify rows in the outputed Table.
 - **Aggregated by** : used to aggregate input columns in order to create new features.
 - **Output table name** : Name of the output table
 
@@ -25,7 +25,7 @@ The operator has one output:
 
  - **Table** : The newly created table
 
- For an example : see [Tutorial 6 : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
+ For an example : see [Tutorial : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
 
 
  Return to the [list of all operators](/operators.html)

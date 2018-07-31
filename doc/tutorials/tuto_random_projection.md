@@ -24,10 +24,10 @@ Parameters are provided with default values and can be optimized as needed.
 
 Here, in order to show the ability of the algorithm to identify very similar patterns, we chose a strong `sequences size` and decreased the `neighborhood radius` to restrict the visualisation to obvious matchings.
 
-![Alternate Text](/img/tuto8/params_random_projection.png)
+![Alternate Text](/img/tuto_random_projection/params_random_projection.png)
 
 We observe the identical `current pattern definition` for both examples and the similarity of the patterns.
 
-![Alternate Text](/img/tuto8/random_projection_ru_ABBA.png)
+![Alternate Text](/img/tuto_random_projection/random_projection_ru_ABBA.png)
 
-![Alternate Text](/img/tuto8/random_projection_ru_Adidas.png)
+![Alternate Text](/img/tuto_random_projection/random_projection_ru_Adidas.png)

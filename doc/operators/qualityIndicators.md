@@ -6,7 +6,7 @@ published: true
 ---
 # Quality indicators
 
-This IKATS operator compute some statistics `time` or/and `values` for each TS provided. These statistics can be seen in the `MDEdit` menu (see [Tutorial 1 : Basics](/doc/tutorials/tuto_basics.html) for details).
+This IKATS operator compute some statistics `time` or/and `values` for each TS provided. These statistics can be seen in the `MDEdit` menu (see [Tutorial : Basics](/doc/tutorials/tuto_basics.html) for details).
 
 ## Description
 The statistics calculated by `Quality Indicators` operator are:

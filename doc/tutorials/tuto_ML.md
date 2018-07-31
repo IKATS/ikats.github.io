@@ -22,7 +22,7 @@ Let's begin with table `aggreg_yearly_36_cities_1`, 36 rows (cities) and 30 indi
 We search to answer that question : North America and Middle East weather are they so characteristics that we can predict the localisation of one city thanks to his historical weather ?
 
 The target looks like :
-![Texte alternatif](/img/tuto4/carto.png "geolocalisation")
+![Texte alternatif](/img/tuto_ML/carto.png "geolocalisation")
 
 with 30 cities in North America and 6 in MLiddle East.
 
@@ -37,18 +37,18 @@ We use [TrainTestSplit](/doc/operators/trainTestSplit.html) operator to genarte 
 
 
 
- ![Texte alternatif](/img/tuto4/webgraphviz.png)
+ ![Texte alternatif](/img/tuto_ML/webgraphviz.png)
 
 
 Then, the model is used to predict test set.
 
- ![Texte alternatif](/img/tuto4/predict.png "Decision Tree Predict")
+ ![Texte alternatif](/img/tuto_ML/predict.png "Decision Tree Predict")
 
 
 
 
 [Decision Tree predict](/doc/operators/decisionTreePredict.html) operator offers two outputs, `score` and `confusion matrix`.
 
- ![Texte alternatif](/img/tuto4/score.png "Prediction score")
+ ![Texte alternatif](/img/tuto_ML/score.png "Prediction score")
 
- ![Texte alternatif](/img/tuto4/confusion.png "confusion matrix")
+ ![Texte alternatif](/img/tuto_ML/confusion.png "confusion matrix")

@@ -26,7 +26,7 @@ The operator has two outputs :
  - **result** : Clusters visualisation, including centroïds positions
 
 ## Example
-See [Tutorial 8 : Decreased representation complexity using SAX](/doc/tutorials/tuto_sax.html)
+See [Tutorial : Decreased representation complexity using SAX](/doc/tutorials/tuto_sax.html)
 
 
 ## Warning
