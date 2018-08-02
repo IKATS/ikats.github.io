@@ -8,7 +8,6 @@ published: true
 
 Symbolic Aggregate Approximation (SAX) transforms a time-series of length `qual_nb_points` into a string of arbitrary length *L*, using an alphabet *A* of size *a* > 2. The algorithm consist of two steps: it transforms the original time-series into "Piecewise Approximate Aggregation" (PAA) segments, then it converts the PAA data into a string.
 
-
 ## Input and parameters
 
 This operator only takes one input of the functional type `ds_name`.
@@ -36,6 +35,7 @@ Portfolio is a list of timeseries found on the net in the Financial domain, with
 
 ![Portfolio_ewa SAX](/img/operators/sax_portfolio.png)
 
+A tutorial is available in: [Tutorial : Decreased representation complexity using SAX](/doc/tutorials/tuto_sax.html).
 
 ## Warning
 

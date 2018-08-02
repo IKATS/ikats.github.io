@@ -4,6 +4,7 @@ date: 2018-01-15 15:00:00 +02:00
 layout: default
 published: true
 ---
+
 # Random Projection Algorithm
 This IKATS operator implements the random projection algorithm for finding patterns in datasets. We call "pattern" the list of "similar" sequences.
 
@@ -47,7 +48,7 @@ Result is a type `pattern_groups` (the list of pattern with their properties: si
 
 ## Algorithm Description
 
-The algorithme inside the `random_projection` operator is quite complex. It consists in cutting all time series into sequences, and summarize them into "words" (*Step 1: build sax words). Then, the algorithm perform a smart similarity search over these words.
+The algorithme inside the `random_projection` operator is quite complex. It consists in cutting all time series into sequences (setp 0), and summarize them into "words" (*Step 1: build sax words). Then, the algorithm perform a smart similarity search over these words (step 3-4).
 
 ### Step 0: Pre-processing
 <!--Note that class "anchor" avoid hiding anchor link with header -->
@@ -91,5 +92,9 @@ http://slideplayer.com/slide/6981514/24/images/49/Once+again,+collisions+are+rec
 
 ### Step 3: find patterns
 A Neighborhood search is then performed on sequences to group sequences into patterns. The search type is controlled by the parameter <a class="anchor" id="Neighborhood_method">*Neighborhood Method*</a> (brute force or using collision matrix). If "brute force" option is selected, all pairs of sequences are compared (very long operation). If "iterative" option is selected, the search is performed iteratively (number of iterations controlled by <a class="anchor" id="Neighborhood_iterations">*Neighborhood Iterations*</a>). The "global" option don't perform the search iteratively. The size of sequence can be expanded by the parameter *Neighborhood Radius*.
+
+
+## Example
+A tutorial is available in: [Tutorial : Similarities between TS via random projections](/doc/tutorials/tuto_random_projection.html).
 
 Return to the [list of all operators](/operators.html)
