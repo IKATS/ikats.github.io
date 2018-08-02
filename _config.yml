@@ -13,9 +13,8 @@ url: "https://www.ikats.org"
 # http://jekyllrb.com/docs/permalinks/
 permalink: date
 
-# Social network accounts
-#twitter_username:
-#github_username:
+plugins:
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown

@@ -7,19 +7,14 @@ layout: default
 Releases
 ========
 
-
-Development version
-===================
+## Development version
 
 You can clone the current development version from the source code repository on the IKATS forge.
 
 ```bash
-git clone http://thor.si.c-s.fr/git/ikats_core
-git clone http://thor.si.c-s.fr/git/ikats_algos
-git clone http://thor.si.c-s.fr/git/ikats_django
-git clone http://thor.si.c-s.fr/git/ikats_py_deploy
-git clone http://thor.si.c-s.fr/git/ikats_hmi
-git clone http://thor.si.c-s.fr/git/ikats-base
-git clone http://thor.si.c-s.fr/git/ikats_tools
-git clone http://thor.si.c-s.fr/git/ikats-ingestion
+git clone https://github.com/IKATS/ikats-pybase.git
+git clone https://github.com/IKATS/gui-builder.git
+git clone https://github.com/IKATS/ikats-datamodel.git
+git clone https://github.com/IKATS/ikats-ingestion.git
+git clone https://github.com/IKATS/ikats-baseimages.git
 ```
