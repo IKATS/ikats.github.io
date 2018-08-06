@@ -21,6 +21,8 @@ These are extremelly powerful features when you want to mine your data step by s
 
 The following series of tutorials will guide you through the discovery of IKATS, from the simplest features, such as data mining, to the use of more characteristic operators in complex workflows.
 
+All these tutorials are based on default dataset available in IKATS sandbox, see [here](/datasets.html) for details.
+
 ## Basic
 >[Tutorial 0 : Check Installation](/doc/tutorials/tuto_workflow.html)
 >

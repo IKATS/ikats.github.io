@@ -28,6 +28,13 @@ Once we have tested all the combination we wanted to, we can pick the one with t
 
 This operator only takes one input of the functional type `Table`.
 
+### Warning
+This input `Table` must contain **at least 2 features**, i.e. table with
+- an ID column (identify each row),
+- a target columns *(Y)*
+- **at least 2** columns of data *(X)*
+
+### Parameters
 It also takes 5 inputs from the user :
 
 - **Target** : the name of the variable we want to predict in the input table

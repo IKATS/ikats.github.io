@@ -13,6 +13,13 @@ This IKATS operator implements the `fit` algorithm of DecisionTree of `scikit-le
 
 This operator only takes one input of the functional type **Table**.
 
+### Warning
+This input `Table` must contain **at least 2 features**, i.e. table with
+- an ID column (identify each row),
+- a target columns *(Y)*
+- **at least 2** columns of data *(X)*
+
+### Parameters
 It also takes 4 inputs from the user :
 
 - **Target** : the name of the variable we want to predict in the input table

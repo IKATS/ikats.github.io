@@ -24,7 +24,7 @@ Operators list..
 
 
 ## Data Exploration
-
+>
 - [Random Projections](/doc/operators/randomProjections.html)
 - [TS pattern Matching](/doc/operators/tsPatternMatching.html)
 
@@ -56,6 +56,7 @@ Operators list..
 - [Correlate ts loop](/doc/operators/correlateTsLoop.html)
 
 ## Processing on Tables
+>
 - [Read Table](/doc/operators/readTable.html)
 - [Add TS Column](/doc/operators/addTsColumn.html)
 - [TrainTestSplit](/doc/operators/trainTestSplit.html)

@@ -93,6 +93,9 @@ http://slideplayer.com/slide/6981514/24/images/49/Once+again,+collisions+are+rec
 ### Step 3: find patterns
 A Neighborhood search is then performed on sequences to group sequences into patterns. The search type is controlled by the parameter <a class="anchor" id="Neighborhood_method">*Neighborhood Method*</a> (brute force or using collision matrix). If "brute force" option is selected, all pairs of sequences are compared (very long operation). If "iterative" option is selected, the search is performed iteratively (number of iterations controlled by <a class="anchor" id="Neighborhood_iterations">*Neighborhood Iterations*</a>). The "global" option don't perform the search iteratively. The size of sequence can be expanded by the parameter *Neighborhood Radius*.
 
+## Reference
+For details about `random projection` algorithm, see [Improving Activity Discovery with Automatic Neighborhood Estimation, David Minnen, 2007](http://www.aaai.org/Papers/IJCAI/2007/IJCAI07-452.pdf).
+
 
 ## Example
 A tutorial is available in: [Tutorial : Similarities between TS via random projections](/doc/tutorials/tuto_random_projection.html).

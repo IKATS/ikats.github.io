@@ -8,7 +8,9 @@ published: true
 
 # Features correlation
 
-In data mining, once we have imported our own dataset ([Tutorial : Import your data](/doc/tutorials/tuto_imports.html)), and clean our dataset - removed outliers ([Previous tutorial](/doc/tutorials/tuto_cutY.html)); we have to perform a data analysis. The goal is finding dependancies / links between features.
+In data mining, once we have imported our own dataset ([Tutorial : Import your data](/doc/tutorials/tuto_imports.html)), and clean our dataset - removed outliers ([Previous tutorial](/doc/tutorials/tuto_cutY.html)); we have to perform a data analysis. The goal is finding dependancies / links between features. This operation can be performed by the [correlation TS loop](/doc/operators/correlateTsLoop.html) operator.
+
+This tutorial is a usecase of this operator.
 
 ## The Dataset
 

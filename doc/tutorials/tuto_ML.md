@@ -37,6 +37,9 @@ First steps (import TS, quality indicators, discretize, Ts2Feature) have already
 
 Let's begin with table `aggreg_yearly_36_cities_1`, 36 rows (cities) and 30 indicators columns.
 
+<!--
+We create a Dataset from `Hourly_weather`, containing just temperatures data.
+-->
 
 
 with 30 cities in North America and 6 in MLiddle East.
