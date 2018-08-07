@@ -39,7 +39,7 @@ Each operator uses a set of parameters that the user may define through the `Par
 
 Population
 -----
-A population is, in the learning process, a list of instances (also called individuals ), described according to a list of characteristics (also called variables).
+A population is, in the learning process, a list of observations (also called individuals), described according to a list of characteristics (also called variables, or features).
 In the case of supervised learning, one of these variables is the target, ie, the variable to be explained.
 
 Note :

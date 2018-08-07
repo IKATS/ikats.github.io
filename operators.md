@@ -13,6 +13,7 @@ Operators list..
 > ### Import Export
 - [Import TS](/doc/operators/importTs.html)
 - [Import Metadata](/doc/operators/importMetadata.html)
+- [Export TS](/doc/operators/exportTS.html)
 
 > ### Dataset Management
 - [Dataset Selection](/doc/operators/datasetSelection.html)
