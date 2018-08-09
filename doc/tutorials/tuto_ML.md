@@ -12,7 +12,7 @@ The purpose of this tutorial is to provide a basic machine learning usecase (tra
 
 ## Usecase
 
-In this tutorial, we use data data from [previous tutorial](/doc/tutorials/tuto_addTSColumn.html), by default, these data are available in the `Historical_hourly_weather` dataset.
+In this tutorial, we use data from [previous tutorial](/doc/tutorials/tuto_addTSColumn.html), by default, these data are available in the `Historical_hourly_weather` dataset.
 
 This dataset contains the weather of 36 cities in North America and Middle East. Are they so characteristics that we can predict the localisation of one city thanks to his historical weather ?
 

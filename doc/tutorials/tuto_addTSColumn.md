@@ -7,7 +7,7 @@ published: true
 
 # How to "add" a TS inside a `Table`
 
-This tutorial shows a usecase for the [addTSColumn](/doc/operators/addTsColumn.html). Here, the purpose is to fill a `Table` with timeseries. This type of table could be used in some machine learning algorithm.
+This tutorial show a usecase for the [addTSColumn](/doc/operators/addTsColumn.html). Here, the purpose is to fill a `Table` with timeseries. This type of table could be used in some machine learning algorithm.
 
 ## Target
 

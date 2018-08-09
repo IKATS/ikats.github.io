@@ -12,7 +12,7 @@ The previous [tutorials](/tutorials.html) shows how to extract and pre-process T
 
 ## Dataset
 
-In this tutorial, we use data data from [Previous tutorial](/doc/tutorials/tuto_corr.html). Here, we will only use 3 indicators (`weather_description`, `wind_speed`, `wind_direction`) for 2 cities, Denver and Detroit.
+In this tutorial, we use data from [Previous tutorial](/doc/tutorials/tuto_corr.html). Here, we will only use 3 indicators (`weather_description`, `wind_speed`, `wind_direction`) for 2 cities, Denver and Detroit.
 
 After TS import (see [Import your data](/doc/tutorials/tuto_imports.html)), and applying a [filter](/doc/operators/filter.html), we have access to a dataset including 6 TS has been generated.
 
