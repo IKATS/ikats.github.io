@@ -1,4 +1,4 @@
-This page contains the information about the needed prerequistes to be installed for [contributing on the IKATS Website](CONTRIBUTING.md).
+This page contains the information about the needed prerequistes to be installed for [contributing on the IKATS Website](CONTRIBUTING.website.md).
 
 # Git and Ruby
 
@@ -18,7 +18,7 @@ sudo apt remove ruby
 # Install Ruby
 cd
 sudo apt-get update
-sudo apt-get installcurl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+sudo apt-get install curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -76,7 +76,7 @@ This editor use package for additionnal features like syntax coloring, git contr
 After installing it (through [official website](https://atom.io)), open `atom ` and install the following packages:
 - `language-liquid`: syntax highlight for {{%}} like tags
 - `jekyll`: build and live-reload
-- `jekyll-syntax-hightlighting`: various syntax highlight for jekyll parts
+- `jekyll-syntax-highlighting`: various syntax highlight for jekyll parts
 - `language-markdown`: Markdown syntax highlight
 - `context-git`: Git commands
   - A warning could appear «Disable GitHub Package». Check the advice and disable GitHub if you do not use it.
@@ -93,12 +93,12 @@ To be able to use Atom with `Jekyll` commands, follow the path:
 
 # Get the IKATS Website locally
 
-IKATS website is managed by git. Repository address is `https://thor.si.c-s.fr/git/ikats_website`.
+IKATS website is managed by git. Repository address is `https://github.com/IKATS/ikats.github.io.git`.
 You need to have the credentials to read and write on this repository.
 
 In a terminal, do the following
 ```bash
-git clone https://thor.si.c-s.fr/git/ikats_website
+git clone https://github.com/IKATS/ikats.github.io.git
 # Then provide your git credentials when required
 ```
 
@@ -142,4 +142,4 @@ sslVerify = false
 
 
 # You could now make changes
-Now that all prerequisites are installed, you could make changes to the website. Follow the instructions detailed into the document [CONTRIBUTING.md](CONTRIBUTING.md)
+Now that all prerequisites are installed, you could make changes to the website. Follow the instructions detailed into the document [CONTRIBUTING.md](CONTRIBUTING.website.md)

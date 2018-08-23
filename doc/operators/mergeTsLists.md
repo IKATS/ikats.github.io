@@ -6,17 +6,19 @@ published: true
 ---
 # Merge TS lists
 
-Concatenate two TS List to create one
+Concatenate two TS List to create one.
 
 ## Input and parameters
 
-This operator takes 2 `TS_list` as inputs
+This operator takes two `TS_list` as inputs.
 
 ## Output
 
-The operator has 1 output:
+The operator has one output:
 
- - **TS list** : merged TS list. Note that there is no generatedTS duplicate because TS are identified by their unique `functionnal id`
+ - **TS list** : merged TS list.
+
+ *Note that there is no TS duplicate in the new TSList, because TS are identified by their unique `functionnal id`*.
 
 <!--[TSUID](http://opentsdb.net/docs/build/html/user_guide/uids.html).-->
 

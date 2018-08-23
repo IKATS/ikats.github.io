@@ -52,6 +52,12 @@ blockquote {
     border-top: 1px solid #e5e5e5;
 }
 
+/*
+Class permiting to avoid masking Anchor links with header.
+Let us remind: header.height="50",  header.vspace="5"
+*/
+.anchor { padding-top: 65px; }
+
 h1,
 .h1 {
     font-family: 'Open Sans Condensed Bold';

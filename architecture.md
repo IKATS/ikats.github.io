@@ -48,7 +48,7 @@ OpenTSDB introduces the following constraint on a time series data :
 In OpenTSDB, a time series data point consists of:
 
 - A metric name.
-- A UNIX timestamp (seconds or milliseconds since [Epoch](http://en.wikipedia.org/wiki/Unix_epoch).
+- A UNIX timestamp (seconds or milliseconds since [Epoch](http://en.wikipedia.org/wiki/Unix_epoch)).
 - A value (64 bit integer or [single-precision floating point](http://opentsdb.net/docs/build/html/user_guide/writing.html) value)
 - A JSON formatted event or a histogram/digest.
 - A set of tags (key-value pairs) that describe the time series the point belongs to.

@@ -6,7 +6,7 @@ published: true
 ---
 # Population Selection
 
-This IKATS operator allows the import of data in the form of tables.
+This IKATS operator allows the import of a file (usualy a `csv` file) into a `Table` object. All these `Tables` are available in menu `Data Mgt/Tables`.
 
 
 ## Input and parameters
@@ -14,18 +14,17 @@ This IKATS operator allows the import of data in the form of tables.
 It takes 3 inputs from the user :
 
 - **select a csv file** : file location in the disk
-- **population name** : table name
-- **table key (row name)** : primary key that identifies each record in the table
+- **population name** : name given to the table which will contain the data file
+- **table key (row name)** : primary key (must be in the header) that identifies each record (rows) in the table
 
 ## Outputs
 
-The operator has two outputs :
+The operator has one output :
 
- - **Text** : table name
- - **Table** : table visualisation
+ - **Table** : the given data  in a format `Table`
 
 ## Example
-See [Imports tutorial](/doc/tutorials/tuto_imports.html)
+See [Tutorial : Import your data](/doc/tutorials/tuto_imports.html).
 
 
 

@@ -28,7 +28,7 @@ The operator has one output :
 
 - `fr_*A*-S*r` : return  "fr_Anakin-Skywalker" and "fr_American-Sniper"
 
-See [Tutorial 1 : Basics](/doc/tutorials/tuto_basics.html) or [Tutorial 4 : Filter and clean data](/doc/tutorials/tuto_cutY.html) for more examples.
+See [Tutorial : Basics](/doc/tutorials/tuto_basics.html) or [Tutorial : Filter and clean data](/doc/tutorials/tuto_cutY.html) for more examples.
 
 
 Return to the [list of all operators](/operators.html)

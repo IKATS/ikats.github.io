@@ -23,7 +23,7 @@ The operator has 2 outputs:
  - **TS list** : List of timeseries imported
 
 
- See [Tutorial 1 : Basics](/doc/tutorials/tuto_basics.html) for example of use.
+ See [Tutorial : Basics](/doc/tutorials/tuto_basics.html) for example of use.
 
 
 Return to the [list of all operators](/operators.html)

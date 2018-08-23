@@ -6,23 +6,41 @@ published: true
 ---
 
 
-Simple prediction of geolocation according to the weather
----------------------------------------------------------
+# Geolocation prediction using Random Trees
 
+The purpose of this tutorial is to provide a basic machine learning usecase (transform dataset, train a model and perform predictions), using the [decision Tree Fit](/doc/operators/decisionTreeFit.html) operator. More precisely, we will perform simple prediction of geolocation according to the weather.
 
-The objective here is to show you how to quickly transform a Dataset, train a machine Learning model and make predictions.
+## Usecase
 
-In this tutorial, we use data from [Kaggle](https://www.kaggle.com/selfishgene/historical-hourly-weather-data).The dataset contains ~5 years of high temporal resolution (hourly measurements) of various types of weather, such as temperature, humidity, air pressure, wind speed, wind direction, weather description. All for a set of 36 cities in North America and the Middle East.
+In this tutorial, we use data from [previous tutorial](/doc/tutorials/tuto_addTSColumn.html), by default, these data are available in the `Historical_hourly_weather` dataset.
 
+This dataset contains the weather of 36 cities in North America and Middle East. Are they so characteristics that we can predict the localisation of one city thanks to his historical weather ?
 
+The target looks like :
+
+![Texte alternatif](/img/tuto_ML/carto.png "geolocalisation"){: class="center"}
+
+<!-- TODO: Finish this tuto
+In this tutorial, for pedagogical purpose, we have simplified the problem, considering just 4 cities in the dataset: 2 in USA (Florida), and 2 in the north of Israel (*Jacksonville, Miami, Haïfa,
+Nahariyya*). The choice of these regions is totally random, and can be changed (you have access to 36 cities).
+
+Here is the position of the 4 choosen cities in the North of Israel (*Haïfa, Nahariyya* - left map), and in Florida
+(*Jacksonville, Miami* - right map)
+
+![map](/img/tuto_ML/maps.png "4 choosen cities"){: class="center"}
+-->
+
+We note that the cities of the same region are close: they should share the same "meteorological characteristic" (same climate).
+
+### Create and transform the dataset
 First steps (import TS, quality indicators, discretize, Ts2Feature) have already be discussed.
 
 Let's begin with table `aggreg_yearly_36_cities_1`, 36 rows (cities) and 30 indicators columns.
 
-We search to answer that question : North America and Middle East weather are they so characteristics that we can predict the localisation of one city thanks to his historical weather ?
+<!--
+We create a Dataset from `Hourly_weather`, containing just temperatures data.
+-->
 
-The target looks like :
-![Texte alternatif](/img/tuto4/carto.png "geolocalisation")
 
 with 30 cities in North America and 6 in MLiddle East.
 
@@ -37,18 +55,20 @@ We use [TrainTestSplit](/doc/operators/trainTestSplit.html) operator to genarte 
 
 
 
- ![Texte alternatif](/img/tuto4/webgraphviz.png)
+ ![Texte alternatif](/img/tuto_ML/webgraphviz.png)
 
 
 Then, the model is used to predict test set.
 
- ![Texte alternatif](/img/tuto4/predict.png "Decision Tree Predict")
+ ![Texte alternatif](/img/tuto_ML/predict.png "Decision Tree Predict")
 
 
 
 
 [Decision Tree predict](/doc/operators/decisionTreePredict.html) operator offers two outputs, `score` and `confusion matrix`.
 
- ![Texte alternatif](/img/tuto4/score.png "Prediction score")
+ ![Texte alternatif](/img/tuto_ML/score.png "Prediction score")
 
- ![Texte alternatif](/img/tuto4/confusion.png "confusion matrix")
+ ![Texte alternatif](/img/tuto_ML/confusion.png "confusion matrix")
+
+Return to the [list of all tutorials](/tutorials.html).

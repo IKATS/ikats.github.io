@@ -5,11 +5,7 @@ layout: default
 ---
 # CUT DS Operator
 
-This IKATS operator cuts all the timeseries in one of two ways:
-
-- by leaving only those points in a given time range
-- limiting the maximum number of points that are in a TS
-
+This IKATS operator cuts all the timeseries provided keeping points in a time range (cut on X axis). If requested, a downsampling can be performed on results.
 
 ## Input and parameters
 
@@ -19,13 +15,13 @@ It also takes upto 3 inputs from the user :
 
 - **Start Date** : Dates before the Start Date will be excluded
 - **End Date** : Dates after the End Date will be excluded
-- **Number of points** : _______________________
+- **Number of points** : (Optionnal) Maximum number of points retained by the time cut (downsampling).
 
 ## Outputs
 
 The operator has one output :
 
- - **Result** : _______
+ - **TS list** : all the points of the cutted dataset.
 
 
 Return to the [list of all operators](/operators.html)
