@@ -22,7 +22,7 @@ highlighter: rouge
 
 exclude:
   - bin
-  - CONTRIBUTING.md
+  - CONTRIBUTING.website.md
   - INSTALL.md
   - README.md
   - assets

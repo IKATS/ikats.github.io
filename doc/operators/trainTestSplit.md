@@ -17,18 +17,18 @@ This operator only takes one input of the functional type `Table`.
 
 It also takes 3 parameters :
 
-- **Column target name** : (*optional*) name of the column target in the input
-- **repartition rate** : decimal rate. Usually between 0.7 and 0.9 depending on the size of available data
-- **Output tables basename** : basename used in output tables. Ex : if *basename*=*split*, output tables will be called *split_Train* and *split_Test*
+- **Column target name** : name of the column target in the input (*optional*)
+  - **repartition rate** : decimal repartition rate between train and test set. Usually between 0.7 and 0.9 depending on the size of available data (e.g a value of 0.7 means a split *70% train set* - *30% test set*)
+- **Output tables basename** : basename used in output tables. E.g. if `basename='split'`, output tables will be called `'split_Train'` and `'split_Test'`
 
 
 ## Outputs
 
 
-The operator has two tables as outputs :
+The operator has two `Tables` as outputs :
 
- - **Train** : to train the model
- - **Test** : to test the model
+ - **Train** : the `Table` corresponding to the train set
+ - **Test** : the `Table` corresponding to the test set (to validate a model)
 
 
 Return to the [list of all operators](/operators.html)

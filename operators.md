@@ -1,5 +1,5 @@
 ---
-title: Operators ...
+title: Operators
 date: 2017-09-29 10:00:00 +02:00
 layout: default
 published: true
@@ -13,6 +13,7 @@ Operators list..
 > ### Import Export
 - [Import TS](/doc/operators/importTs.html)
 - [Import Metadata](/doc/operators/importMetadata.html)
+- [Export TS](/doc/operators/exportTS.html)
 
 > ### Dataset Management
 - [Dataset Selection](/doc/operators/datasetSelection.html)
@@ -24,7 +25,7 @@ Operators list..
 
 
 ## Data Exploration
-
+>
 - [Random Projections](/doc/operators/randomProjections.html)
 - [TS pattern Matching](/doc/operators/tsPatternMatching.html)
 
@@ -34,14 +35,16 @@ Operators list..
 - [Rollmean](/doc/operators/rollmean.html)
 
 > ### Reduction
-- [Cut DS](/doc/operators/cutTs.html)
+- [Cut DS](/doc/operators/cutDs.html)
 - [Cut DS by Metric](/doc/operators/cutByMetric.html)
 - [Cut-Y](/doc/operators/cutY.html)
+
+>*A global summary of the `cut` operators is available [here](/doc/operators/cutTs.html).*
 
 > ### Transforming
 - [Ts2Feature](/doc/operators/ts2Feature.html)
 - [Discretize](/doc/operators/discretize.html)
-- [Resample](/doc/operators/resample.html)
+- [Resampling TS](/doc/operators/resample.html)
 - [SAX](/doc/operators/sax.html)
 - [Slope](/doc/operators/slope.html)
 - [Unwrap](/doc/operators/unwrap.html)
@@ -54,8 +57,9 @@ Operators list..
 - [Correlate ts loop](/doc/operators/correlateTsLoop.html)
 
 ## Processing on Tables
+>
 - [Read Table](/doc/operators/readTable.html)
-<!-- [Add TS Column](/doc/operators/addTsColumn.html)-->
+- [Add TS Column](/doc/operators/addTsColumn.html)
 - [TrainTestSplit](/doc/operators/trainTestSplit.html)
 - [Merge Tables](/doc/operators/mergeTables.html)
 
@@ -83,5 +87,5 @@ Here are "macro-operators" rather than real operators. Here you will manage shor
 The maco-operators which will appear in this list is under the user responsability.
 
 ### Warning
-========
-The search functionality just applies on operators and not on macro-operators listed in 'My Operators'
+
+The search functionality just applies on operators and not on macro-operators listed in 'My Operators'.

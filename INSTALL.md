@@ -1,6 +1,7 @@
 # INSTALL
 
-This page contains the information about the needed prerequistes to be installed for [contributing on the IKATS Website](CONTRIBUTING.md).
+This page contains the information about the needed prerequistes to be installed for [contributing on the IKATS Website](CONTRIBUTING.website.md).
+
 
 ## Git and Ruby
 
@@ -21,7 +22,9 @@ sudo apt remove ruby
 # Install Ruby
 cd
 sudo apt-get update
+
 sudo apt-get install curl zlib1g-dev build-essential software-properties-common libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev libffi-dev
+
 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
@@ -80,7 +83,7 @@ After installing it (through [official website](https://atom.io)), open `atom` a
 
 - `language-liquid`: syntax highlight for {{%}} like tags
 - `jekyll`: build and live-reload
-- `jekyll-syntax-hightlighting`: various syntax highlight for jekyll parts
+- `jekyll-syntax-highlighting`: various syntax highlight for jekyll parts
 - `language-markdown`: Markdown syntax highlight
 - `context-git`: Git commands
   - A warning could appear «Disable GitHub Package». Check the advice and disable GitHub if you do not use it.
@@ -97,12 +100,16 @@ To be able to use Atom with `Jekyll` commands, follow the path:
 ## Get the IKATS Website locally
 
 IKATS website is managed by git. Repository address is `https://github.com/IKATS/ikats.github.io`.
+
 You need to have the credentials to read and write on this repository.
 
 In a terminal, do the following
 
 ```bash
 git clone https://github.com/IKATS/ikats.github.io
+
+# Then provide your git credentials when required
+
 ```
 
 The `ikats_website` folder will be created at the current location and contain the latest `master` branch from repository.
@@ -132,6 +139,6 @@ bundle install
 - Open the global git configuration pressing "Edit global gitconfig"
 - Write the contents above into the configuration.
 
-## You could now make changes
 
-Now that all prerequisites are installed, you could make changes to the website. Follow the instructions detailed into the document [CONTRIBUTING.md](CONTRIBUTING.md)
+# You could now make changes
+Now that all prerequisites are installed, you could make changes to the website. Follow the instructions detailed into the document [CONTRIBUTING.md](CONTRIBUTING.website.md)
