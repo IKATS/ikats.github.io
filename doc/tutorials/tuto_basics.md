@@ -98,4 +98,18 @@ To merge TS lists :
 
 Now, you know how to select requested TS to build your own `Dataset`.
 
+
+## Export a table as CSV
+
+To finish, we want to export a table into a `CSV file`.
+
+To export a table :
+- go to `Data Mgt`(1)
+- select `Tables` button (2)
+- find the table you want to export and press “Download” in the *actions* column (3)
+
+![Texte alternatif](/img/tuto_basic/ikatsExportTable.png "Merge TS Lists"){: width="700px" class="center"}
+
+Now, you know how to `export` a table.
+
 Return to the [list of all tutorials](/tutorials.html).

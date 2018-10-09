@@ -19,6 +19,9 @@ How to use Jupyter? -->
 >## ... create a new TS from an existing one ?
 * IKATS offers several ways to [cut a TS](/doc/operators/cutTs.html) and create a new one.
 
+>## ... save/export a table ?
+* See [tutorial Basics](/doc/tutorials/tuto_basics.html).
+
 
 >## ... save operator parameters to allow them to be reused?
 * For example, the [import](/doc/operators/importTs.html) operator takes several parameters, including REGEX expressions, and may require several tries before a successful import. The failure to the import changes the status of the operator to `failed`. You must then create a new operator for the next test. **Tip:** before clicking `run`, select the operator and click on` Save selection as Custom Operator` (bottom left panel). Parameters are saved (in `My Operators`) for the next try.
