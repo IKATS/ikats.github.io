@@ -25,7 +25,7 @@ Contributing to this project is welcome!
 
   If you're interested in contributing by adding a new operator or  a new visualisation tool,
     please refer to the a specific procedure which is described
-    in the <a href="https://github.com/IKATS/ikats.github.io/blob/master/CONTRIBUTING.operator.md">CONTRIBUTING Operator page </a> or in the <a href="https://github.com/IKATS/ikats.github.io/blob/master/CONTRIBUTING.viztool.md">CONTRIBUTING viztool page </a> 
+    in the <a href="https://github.com/IKATS/IKATS/blob/master/CONTRIBUTING.operator.md">CONTRIBUTING Operator page </a> or in the <a href="https://github.com/IKATS/IKATS/blob/master/CONTRIBUTING.viztool.md">CONTRIBUTING viztool page </a>
 
     If you're interested in contributing to the project for any other aspect, please submit a pull request in the concerned repository.
 Share your ideas and plans with us and prove your talent by submitting patches.
