@@ -14,9 +14,10 @@ In some case, the dataset used can be huge. Searching similarities between each 
 This tutorial is a usecase for this operator.
 
 ### Warning
-This tutorial helps understanding the role of the `Random projection` operator. Due to it's complexity, it requires a lot of memory: at least 16 Go of RAM. With a lower value you can reach the limits and get a stack overflow. In this case, the operator will turn red with no result.
+This tutorial helps understanding the role of the `Random projection` operator. Due to it's complexity, it requires a lot of memory: at least 16 Go of RAM for a *normal* usage. At 8 Go of RAM, you can lower the parameter `Neighborhood iterations` to downgrad expected result. With a lower RAM you can reach the limits and get a stack overflow. In this case, the operator will turn red with no result.
+In a sandbox context, try to use this operator on a small dataset.
 
-Try to use this operator with the sandbox on a smaller dataset.
+This tutorial has been performed on a small dataset (only 7 TS), and in a downgraded case (only 8 Go of RAM).
 
 ## Dataset used
 In this tutorial, we use the default dataset `WEBTraffic`, a subset of a dataset proposed on [Kaggle](https://www.kaggle.com/c/web-traffic-time-series-forecasting). Each of these TS represent a number of daily views of a different Wikipedia article, starting from July, 1st, 2015 up until December 31st, 2016.
@@ -24,7 +25,7 @@ The subset include 11989 TS from 7 languages (Deutsch, English, French, Spanish,
 
 The purpose of this tutorial is to extract all identical patterns from this dataset, detecting the links between the different Wikipedia articles.
 
-For pedagogical purpose, we limit the dataset to 7 TS, using the [filter](/doc/operators/filter.html) operator. We search TS corresponding to Russian pages (`languages` *like* `ru`), and with a name begining with A (`metric` *like* `A*`). Note that the *name* of the TS correspond to its metadata `metric`.
+For pedagogical purpose, we limit the dataset to 7 TS, using the [filter](/doc/operators/filter.html) operator. We search TS corresponding to Russian pages (`language` *like* `ru`), and with a name begining with A (`metric` *like* `A*`). Note that the *name* of the TS correspond to its metadata `metric`.
 
 We obtains 7 TS: *ABBA_ru, Adobe-Flash_ru, Adidas_ru, Airbus-A320_ru, Alekseev_ru, Android_ru* and *Apple_ru*. A simple view on these TS (visualization option `Curve`) show identical behaviours in curves. These TS contains 800 points (metadata `qual_nb_points`).
 
@@ -44,8 +45,6 @@ Here, in order to obtain fast results, we limit the matching to very similar pat
 
 ![Alternate Text](/img/tuto_random_projection/params_random_projection.png)
 
-*Note: This workflow contains much more operator than requested: the filtering operation can be performed in one single `Filter`. And the `Quality operator` is not necessary if you choose a default Dataset (like `WEBTraffic`): already calculated.*
-
 ## Results
 
 We observe the identical `current pattern definition` for both examples and the similarity of the patterns.
@@ -53,11 +52,11 @@ We observe the identical `current pattern definition` for both examples and the 
 ![Patterns](/img/tuto_random_projection/patterns.png "A selection of two TS sharing same pattern"){: class="center"}
 
 IKATS provides some information about results:
-- the list of pattern name `Pattern` (e.g. `P1`)
-- the current TS to plot (e.g. `ru_Android`)
+- the list of pattern name `Pattern` (e.g. `P11`)
+- the current TS to plot (e.g. `ABBA_ru`)
 - the `current pattern definition` summarized into *SAX word*, in regexp expression (each SAX word sequence corresponding to this`current pattern definition` expression is associated to current `Pattern`)
 
-![Results](/img/tuto_random_projection/random_projection_ru_Android.png "Some results")
+![Results](/img/tuto_random_projection/random_projection_ru_ABBA.png "Some results"){: class="center"}
 
 Now, you are able to perform pattern matching without any model of pattern.
 
