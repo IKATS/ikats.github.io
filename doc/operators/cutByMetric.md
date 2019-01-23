@@ -25,5 +25,6 @@ The operator has one output :
 
  - **Ts list** : all points that validate the cut condition.
 
+A tutorial is available in [tutorial: Advanced filtering with `Cut-DS by metric`](/doc/tutorials/tuto_cut_DS_metric.html)
 
 Return to the [list of all operators](/operators.html)
