@@ -11,11 +11,11 @@ Transform a `Table` object by aggregating its components.
 
 ## Input and parameters
 
-This operator only takes one input of the functional type `Table`.
+This operator only takes one input of the functional type `Table`. Each row of this table must be linked to a TS (see [discretize operator](/doc/operators/discretize.html)).
 
 It also takes upto 3 inputs from the user :
 
-- **Population label** : Property used to identify rows in the outputed Table.
+- **Population label** : Property used to identify rows in the outputed Table. Must be a shared metadata for all TS linked concerned in the input table.
 - **Aggregated by** : used to aggregate input columns in order to create new features.
 - **Output table name** : Name of the output table
 

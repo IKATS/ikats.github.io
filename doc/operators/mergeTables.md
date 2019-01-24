@@ -20,7 +20,7 @@ This operator takes 2 `tables` as inputs
 
 It also takes 2 inputs from the user :
 
-- **Join on** : name of the column used as key to join. If not given, operator try to join thanks first columns.
+- **Join on** : name of the column used as key to join. If not given, operator try to join thanks first columns. Each of the 2 input columns must contain this column (case sensitive).
 - **Merged table name** : name of newly created table
 
 
