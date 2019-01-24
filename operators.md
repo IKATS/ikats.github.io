@@ -38,14 +38,18 @@ Operators list..
 - [Cut DS](/doc/operators/cutDs.html)
 - [Cut DS by Metric](/doc/operators/cutByMetric.html)
 - [Cut-Y](/doc/operators/cutY.html)
+- [PCA](/doc/operators/pca.html)
 
 >*A global summary of the `cut` operators is available [here](/doc/operators/cutTs.html).*
+
+
 
 > ### Transforming
 - [Ts2Feature](/doc/operators/ts2Feature.html)
 - [Discretize](/doc/operators/discretize.html)
 - [Resampling TS](/doc/operators/resample.html)
 - [SAX](/doc/operators/sax.html)
+- [Scale](/doc/operators/scale.html)
 - [Slope](/doc/operators/slope.html)
 - [Unwrap](/doc/operators/unwrap.html)
 
