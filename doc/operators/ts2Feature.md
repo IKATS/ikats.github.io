@@ -16,7 +16,7 @@ This operator only takes one input of the functional type `Table`. Each row of t
 It also takes upto 3 inputs from the user :
 
 - **Population label** : Property used to identify rows in the outputed Table. Must be a shared metadata for all TS linked concerned in the input table.
-- **Aggregated by** : used to aggregate input columns in order to create new features.
+- **Aggregated by** : used to aggregate input columns in order to create new features. Must be a metadata name.
 - **Output table name** : Name of the output table
 
 ## Outputs
@@ -24,6 +24,10 @@ It also takes upto 3 inputs from the user :
 The operator has one output:
 
  - **Table** : The newly created table
+
+## Warning !
+
+Result shall not contain empty cell: if a TS is missing for a given `Population label` / field `Aggregated by`, an error is Raised (`Line length inconsistency`).
 
  For an example : see [Tutorial : How to parse timeseries and create new features](/doc/tutorials/tuto_TS2Feature.html).
 
