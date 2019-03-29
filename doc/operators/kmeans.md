@@ -1,38 +1,21 @@
 ---
 title: kmeans
-date: 2018-01-15 15:00:00 +02:00
+date: 2018-12-11 15:00:00 +02:00
 layout: default
 published: true
 ---
-# Kmeans
+# K-Means
+Those operators perform the unsupervised learning algorithm [K-Means](https://en.wikipedia.org/wiki/K-means_clustering). It is used to cluster the data in K homogeneous and provide a 2-dimensional synthetic visualization of the result. For each of the K groups, an "artificial mean point" called the centroid is built and displayed in the visualisation.
 
-This IKATS operator implements [K-Means](https://en.wikipedia.org/wiki/K-means_clustering) clustering algorithm, from `scikit-learn`. Clusters data by trying to separate samples in *n* groups with the nearest mean.
+There are three different K-means algorithms in IKATS, depending on the nature of the inputs:
 
+## [K-Means on SAX](kmeans_on_sax.html)
+Perform K-Means algorithm on SAX words. It is dedicated to be applied to the output of the [SAX](sax.html) operator
 
-## Input and parameters
+## [K-Means on Patterns](kmeansOnPatterns.html)
+Perform K-Means algorithm on patterns. It is dedicated to be applied to the output of the [Random Projections](randomProjections.html) operator.
 
-In the current implementation, this operator only takes one input of the functional type **SAX**.
+## [K-Means on Time Series](kmeans_on_ts.html)
+Perform K-Means algorithm directly on time series data.
 
-It also takes 1 input from the user :
-
-- **clusters** : The number of clusters to form as well as the number of centroids to generate
-
-
-## Outputs
-
-The operator has two outputs :
-
- - **Model** : a binary dump of the best model found by the procedure
-
- - **result** : Clusters visualisation, including centroïds positions
-
-## Example
-See [Tutorial : Decreased representation complexity using SAX](/doc/tutorials/tuto_sax.html)
-
-
-## Warning
-
-The operator is based on the values of PAA segments at the output of the [SAX](/doc/operators/sax.html) operator. It does not support null values, which may be the case if some data are missing. In this case, upstream use of the [resampling TS](/doc/operators/resample.html) operator may be useful.
-
-
-Return to the [list of all operators](/operators.html)
+Return to the [list of all operators](../../operators.html)

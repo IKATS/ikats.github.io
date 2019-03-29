@@ -76,8 +76,7 @@ Operators list..
 <!--[RHM](/doc/operators/rhm.html) -->
 
 > ### Unsupervised Learning
-- [K-Means](/doc/operators/kmeans.html)
-- [K-Means on patterns](/doc/operators/kmeansOnPatterns.html)
+- [K-Means](/doc/operators/kmeans.html) with three different implementations
 
 <!--## Developers
 - Output Builder -->
